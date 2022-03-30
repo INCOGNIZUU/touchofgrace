@@ -1,7 +1,7 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/navbar.php'; ?>
 
-<main>
+<section class="home">
     <div class="bg-img">
     </div>
 
@@ -376,5 +376,5 @@
 
         </div>
     </section>
-</main>
-<script src="js/secretariat.js"></script>
+    <script src="js/home.js"></script>
+</section>

@@ -18,6 +18,7 @@ var generate_modal = document.getElementById("generate-modal");
 var generate_btn = document.getElementById("generate-report");
 var close_generate = document.getElementsByClassName("close")[3];
 
+
 // Open modal
 profile_btn.onclick = function() {
   profile_modal.style.display = "block";
@@ -65,15 +66,3 @@ window.onclick = function(event) {
 
 
 
-// Smooth Scrolling when Clicking Nav Section Links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth',
-          block: 'center' 
-      });
-
-  });
-});

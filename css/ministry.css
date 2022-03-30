@@ -1,0 +1,131 @@
+.ministry {
+    background-color: #A3D465;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.ministry-banner > img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.ministry-banner > h1 {
+    font-family: metropolis;
+    font-size: 33px;
+    color: #137F82;
+    position: absolute;
+    margin-left: 50px;
+    float: left;
+    top: 60px;
+}
+
+@media (min-width: 1025px) {
+    .ministry-banner > img {
+        width: 80vw;
+        height: auto;   
+    }
+
+    .ministry-banner > h1 {
+        top: 100px;
+    }
+
+}
+
+
+/* Ministry Content */
+.ministry-content {
+    margin-top: -100px;
+}
+
+.ministry-content > .ministry-profile {
+    text-align: start;
+    padding: 20px;
+    font-family: metropolis;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ministry-content > .ministry-profile:hover {
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+}
+
+.ministry-profile h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.ministry-profile h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.ministry-profile div {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.ministry-profile img {
+    width: 161px;
+    height: 161px;
+}
+
+
+/* Pastor Modal */
+.ministry-modal{
+    padding-top: 250px;
+    display: none;
+    position: fixed;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.ministry-modal-content {
+    text-align: center;
+    background-color: #fefefe;
+    margin: 0 auto;
+    width: 80%;
+    padding: 30px 20px;
+    height: 236px;
+    max-width: 359px;
+    border-radius: 20px;
+}
+
+.ministry-modal-content img {
+    width: 161px;
+    height: 161px;
+    float: left;
+    position: relative; 
+    top: 0;
+    left: 0;
+    margin-top: -80px;
+    margin-left: -20px;
+}
+
+.ministry-modal-content .profile-data > p {
+    margin-top: 20px;
+}
+
+.ministry-modal-content .profile-data h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+

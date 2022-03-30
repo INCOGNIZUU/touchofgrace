@@ -1,21 +1,15 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/navbar.php'; ?>
 
-<section class="primary">
+<section class="ministry">
 
-    <div class="primary-banner">
-        <img src="images/primary-banner.png" alt="">
-        <h1>Primary</h1>
+    <div class="ministry-banner">
+        <img src="images/ministry-banner.png" alt="">
+        <h1>Ministry</h1>
     </div>
 
-    <div class="primary-filter">
-        <button>All</button>
-        <button>Male</button>
-        <button>Female</button>
-    </div>
-
-    <div class="primary-content">
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4" id="primary-btn">
+    <div class="ministry-content">
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4" id="ministry-btn">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
                 <h1>John Does</h1>
@@ -25,8 +19,8 @@
         </div>
 
         <!-- Pastor Modal -->
-        <div class="primary-modal" id="primary-modal">
-            <div class="primary-modal-content" id="primary-modal-content">
+        <div class="ministry-modal" id="ministry-modal">
+            <div class="ministry-modal-content" id="ministry-modal-content">
                 <img src="images/profile/Profile Picture.png" alt="Profile Image">
                 <div class="profile-data">
                     <h1>John Doe</h1>
@@ -41,7 +35,7 @@
         </div>
         <!-- Pastor Modal End -->
 
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
                 <h1>John Does</h1>
@@ -50,7 +44,7 @@
             </div>
         </div>
 
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
                 <h1>John Does</h1>
@@ -59,7 +53,7 @@
             </div>
         </div>
 
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
                 <h1>John Does</h1>
@@ -68,7 +62,7 @@
             </div>
         </div>
 
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
                 <h1>John Does</h1>
@@ -77,7 +71,7 @@
             </div>
         </div>
 
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
                 <h1>John Does</h1>
@@ -85,7 +79,37 @@
                 <p>Lorem Ipsum</p>
             </div>
         </div>
+
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>John Does</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>John Does</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>John Does</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+
+
+
     </div>
 
 </section>
-<script src="js/primary.js"></script>
+<script src="js/ministry.js"></script>

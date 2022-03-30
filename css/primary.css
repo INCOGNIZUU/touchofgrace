@@ -1,0 +1,180 @@
+.primary {
+    background-color: #3DBD96;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.primary-banner > img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.primary-banner > h1 {
+    font-family: metropolis;
+    font-size: 33px;
+    color: #137F82;
+    position: absolute;
+    margin-left: 50px;
+    float: left;
+    top: 60px;
+}
+
+@media (min-width: 1025px) {
+    .primary-banner > img {
+        width: 80vw;
+        height: auto;   
+    }
+
+    .primary-banner > h1 {
+        top: 100px;
+    }
+
+}
+
+
+/* Primary Filter */
+.primary-filter {
+    width: 80%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -80px;
+
+}
+
+.primary-filter button {
+    font-family: metropolis;
+    font-size: 24px;
+    border: 0;
+    border-radius: 10px;
+    width: 160px;
+    height: 35px;
+    margin: 10px;
+    box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+}
+
+.primary-filter button:hover {
+    cursor: pointer;
+}
+
+.primary-filter button:nth-child(1) {
+    display: none;
+    color: #3BBB76;
+    background-color: #77FABB;
+}
+.primary-filter button:nth-child(2) {
+    color: #70BFC1 ;
+    background-color: #32EC93;
+}
+.primary-filter button:nth-child(3) {
+    color: #3BBB76;
+    background-color: #77FABB;
+}
+
+@media (min-width: 769px) {
+    .primary-filter button:nth-child(1) {
+        display: block;
+    }
+    .primary-filter {
+        margin-top: -100px;
+    
+    }
+}
+
+/* Primary Content */
+
+.primary-content > .primary-profile {
+    text-align: start;
+    padding: 20px;
+    font-family: metropolis;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.primary-content > .primary-profile:hover {
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+}
+
+.primary-profile h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.primary-profile h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.primary-profile div {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.primary-profile img {
+    width: 161px;
+    height: 161px;
+}
+
+
+/* Pastor Modal */
+.primary-modal{
+    padding-top: 250px;
+    display: none;
+    position: fixed;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.primary-modal-content {
+    text-align: center;
+    background-color: #fefefe;
+    margin: 0 auto;
+    width: 80%;
+    padding: 30px 20px;
+    height: 236px;
+    max-width: 359px;
+    border-radius: 20px;
+}
+
+.primary-modal-content img {
+    width: 161px;
+    height: 161px;
+    float: left;
+    position: relative; 
+    top: 0;
+    left: 0;
+    margin-top: -80px;
+    margin-left: -20px;
+}
+
+.primary-modal-content .profile-data > p {
+    margin-top: 20px;
+}
+
+.primary-modal-content .profile-data h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+

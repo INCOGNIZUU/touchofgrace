@@ -1,0 +1,547 @@
+/* For All Modals in Home */
+
+.close {
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-modal,
+.create-modal,
+.submit-modal,
+.generate-modal {
+   display: none;
+   position: fixed;
+   z-index: 6;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.4);
+}
+
+.profile-modal-content,
+.create-modal-content,
+.submit-modal-content,
+.generate-modal-content {
+    background-color: #fefefe;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.create-modal-content {
+    height: 100%;
+}
+
+.generate-modal-content {
+    height: 100%;
+}
+
+.create-modal-content > .bg-img,
+.submit-modal-content > .bg-img,
+.generate-modal-content > .bg-img{
+   width: 100%;
+   height: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.profile-modal-content form,
+.create-modal-content form,
+.submit-modal-content form,
+.generate-modal-content form  {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-modal-content h1,
+.submit-modal-content h1,
+.generate-modal-content h1 {
+    font-family: metropolis;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.create-modal-content form input,
+.submit-modal-content form input,
+.generate-modal-content form input {
+    height: 30px;
+}
+
+.create-modal-content form > input[type="submit"],
+.submit-modal-content form > input[type="submit"],
+.create-modal-content form select,
+.submit-modal-content form select,
+.generate-modal-content form > input[type="submit"],
+.generate-modal-content form select{
+    border: 0;
+    font-family: metropolis;
+    width: 100%;
+    height: 30px;
+    margin: 30px 0;
+    font-size: 13px;
+    border-bottom: 1px solid;
+}
+
+.create-modal-content form input[type="email"] {
+    font-size: 13px;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+.create-modal-content form label,
+.submit-modal-content form label,
+.generate-modal-content form label{
+    font-family: metropolis;
+}
+
+
+
+
+@media (min-width: 769px) {
+    .profile-modal-content,
+    .create-modal-content,
+    .submit-modal-content,
+    .generate-modal-content {
+        background-color: #fefefe;
+        margin: 0 auto;
+        border: 1px solid #888;
+        width: 613px;
+        border-radius: 20px;
+    }
+
+    .create-modal,
+    .submit-modal,
+    .generate-modal {
+        padding-top: 50px;
+    }
+
+    .create-modal-content {
+        height: 784px;
+    }
+
+    .submit-modal-content {
+        height: 1000px;
+    }
+    
+    .generate-modal-content {
+        height: 650px;
+    }
+
+    .create-modal-content > .bg-img,
+    .submit-modal-content > .bg-img,
+    .generate-modal-content > .bg-img {
+        border-radius: 20px 20px 0 0;
+    }
+    
+}
+
+
+/* Profile */
+.profile {
+    font-family: metropolis;
+    color: #000;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,1);
+}
+
+.profile > img {
+    width: 161px;
+    height: 161px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: -80px;
+    margin-left: -20px;
+}
+
+.profile-data h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.profile-data button {
+    position: relative;
+    float: right;
+    bottom: 0;
+    border-radius: 20px;
+    margin-right: -40px;
+    margin-top: 10px;
+    background-color: #48BEFF;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+}
+
+.profile-data button:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 769px) {
+    .profile {
+        width: 95%;
+    }
+}
+
+  /* Create Modal */
+.create-modal-content > .bg-img {
+    background-color: #48BEFF;
+    background-image: url('../images/profile/Vector.png');
+}
+
+.create-modal-content form {
+    color: #48BEFF;
+}
+
+.create-modal-content form > input[type="submit"] {
+    background-color: #48BEFF;
+    color: #ABF7F9;
+}
+
+.create-modal-content h1 {
+    color: #48BEFF;
+}
+
+
+.create-modal-content form input[type="email"],
+.create-modal-content form select {
+    border-color:  #48BEFF;
+}
+
+.create-modal-content form input::placeholder,
+.create-modal-content form select,
+.create-modal-content form label{
+    color: #48BEFF;
+}
+
+.checkbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.checkbox div label {
+    margin-left: 10px;
+}
+
+
+/* Submit Report Modal Content */
+.submit-modal-content > .bg-img {
+    background-color: #3DBD96;
+    background-image: url('../images/profile/Vector.png');
+}
+
+.submit-modal-content form {
+    color: #3DBD96;
+}
+
+.submit-modal-content form > input[type="submit"] {
+    background-color: #3DBD96;
+    color: #ABF7F9;
+}
+
+.submit-modal-content h1 {
+    color: #3DBD96;
+}
+
+.submit-modal-content form input::placeholder,
+.submit-modal-content form select,
+.submit-modal-content form label,
+.submit-modal-content form textarea::placeholder{
+    color: #3DBD96;
+}
+
+.submit-modal-content form textarea {
+    border-color: #3DBD96;
+}
+
+.submit-modal-content form .date {
+    border-bottom: 1px solid #05A575;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.submit-modal-content form > div input {
+    margin-left: 10px;
+}
+
+.submit-modal-content form input[type="date"] {
+    text-transform: uppercase;
+    border: 0;
+    color: #3DBD96;
+}
+
+.submit-modal-content form select {
+    margin: 10px 0;
+}
+
+.submit-modal-content form > label {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.submit-modal-content form input:nth-child(3),
+.submit-modal-content form input:nth-child(5) {
+    border: 0;
+    border-bottom: 1px solid #05A575;
+    width: 100%;
+}
+
+
+.attendance {
+    margin-left: 40px;
+}
+
+.attendance div {
+    width: 250px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attendance input {
+    border: 1px solid #05A575;
+}
+
+/* Generate Report Modal Content */
+.generate-modal-content > .bg-img {
+    background-color: #A3D465;
+    background-image: url('../images/profile/Vector.png');
+}
+
+.generate-modal-content form {
+    color: #A3D465;
+}
+
+.generate-modal-content form > input[type="submit"] {
+    background-color: #A3D465;
+    color: #ABF7F9;
+}
+
+.generate-modal-content h1 {
+    color: #A3D465;
+}
+
+.generate-modal-content form input::placeholder,
+.generate-modal-content form select,
+.generate-modal-content form label,
+.generate-modal-content form textarea::placeholder{
+    color: #A3D465;
+}
+
+.generate-modal-content form textarea {
+    border-color: #A3D465;
+}
+
+.generate-modal-content form .date {
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.generate-modal-content form input[type="date"] {
+    color: #A3D465;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.generate-modal-content form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.generate-modal-content form input {
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+}
+
+
+
+
+
+
+  /* Functions */
+
+.functions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.functions button {
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #48BEFF;
+    color: #fff;
+    border: 0;
+    padding: 8px 20px;
+    box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+
+}
+
+.functions button:hover {
+    cursor: pointer;
+}
+
+
+/* Trainings */
+.trainings {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.trainings .training-card:nth-child(1) {
+    background-color: #ED74B0;
+    order: 1;
+}
+
+.trainings .training-card:nth-child(2) {
+    background-color: #80DEFB;
+    order: 2;
+}
+
+.trainings .training-card:nth-child(3) {
+    background-color: #94F682;
+    order: 3;
+}
+
+.trainings .training-card:nth-child(4) {
+    background-color: #F2A96F;
+    order: 4;
+}
+
+.trainings .training-card:nth-child(5) {
+    background-color: #D674F2;
+    order: 5;
+}
+
+.trainings .training-card:nth-child(6) {
+    background-color: #617CF7;
+    order: 6;
+}
+
+.trainings .training-card:nth-child(7) {
+    background-color: #FCEF73;
+    order: 7;
+}
+
+.trainings .training-card:nth-child(8) {
+    background-color: #E67B60;
+    order: 8;
+}
+
+.trainings .training-card:nth-child(9) {
+    background-color: #75D1C4;
+    order: 9;
+}
+
+.trainings .training-card:nth-child(10) {
+    background-color: #6FD26E;
+    order: 10;
+}
+
+.trainings .training-card:nth-child(11) {
+    background-color: #EC655F;
+    order: 11;
+    width: 363px;
+}
+
+@media (max-width: 360px) {
+    .trainings .training-card:nth-child(11) {
+        width: 161px;
+        height: 161px;
+    }
+}
+
+@media (min-width: 769px) {
+    .trainings .training-card:nth-child(11) {
+        background-color: #EC655F;
+        width: 350px;
+    }
+}
+
+@media (min-width: 1368px) {
+    .trainings .training-card:nth-child(11) {
+        order: 8;
+    }
+}
+
+.training-card {
+    font-family: 'Lexend', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 161px;
+    height: 161px;
+}
+
+.training-card h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+}
+
+.training-card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.training-card div p {
+    margin-left: 5px;
+    font-size: 52px;
+}
+
+.trainings {
+    margin-bottom: 100px;
+}
