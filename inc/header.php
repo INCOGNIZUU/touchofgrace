@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/pastors.css">
     <link rel="stylesheet" href="css/primary.css">
     <link rel="stylesheet" href="css/ministry.css">
+    <link rel="stylesheet" href="css/home-primary.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

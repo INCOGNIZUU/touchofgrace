@@ -155,6 +155,15 @@
 
 
 /* Profile */
+.logout-mobile {
+    font-family: metropolis;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .profile {
     font-family: metropolis;
     color: #000;
@@ -199,6 +208,9 @@
     color: #fff;
     border: 0;
     padding: 10px 20px;
+    box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
 }
 
 .profile-data button:hover {
@@ -436,57 +448,57 @@
 }
 
 .trainings .training-card:nth-child(1) {
-    background-color: #ED74B0;
+    background-color: #FF3294;
     order: 1;
 }
 
 .trainings .training-card:nth-child(2) {
-    background-color: #80DEFB;
+    background-color: #32DAFF;
     order: 2;
 }
 
 .trainings .training-card:nth-child(3) {
-    background-color: #94F682;
+    background-color: #4AF851;
     order: 3;
 }
 
 .trainings .training-card:nth-child(4) {
-    background-color: #F2A96F;
+    background-color: #FF9040;
     order: 4;
 }
 
 .trainings .training-card:nth-child(5) {
-    background-color: #D674F2;
+    background-color: #DF4AF8;
     order: 5;
 }
 
 .trainings .training-card:nth-child(6) {
-    background-color: #617CF7;
+    background-color: #325FFF;
     order: 6;
 }
 
 .trainings .training-card:nth-child(7) {
-    background-color: #FCEF73;
+    background-color: #FFEA32;
     order: 7;
 }
 
 .trainings .training-card:nth-child(8) {
-    background-color: #E67B60;
+    background-color: #F46141;
     order: 8;
 }
 
 .trainings .training-card:nth-child(9) {
-    background-color: #75D1C4;
+    background-color: #34CEBC;
     order: 9;
 }
 
 .trainings .training-card:nth-child(10) {
-    background-color: #6FD26E;
+    background-color: #40D460;
     order: 10;
 }
 
 .trainings .training-card:nth-child(11) {
-    background-color: #EC655F;
+    background-color: #FF3232;
     order: 11;
     width: 363px;
 }
@@ -500,7 +512,7 @@
 
 @media (min-width: 769px) {
     .trainings .training-card:nth-child(11) {
-        background-color: #EC655F;
+        background-color: #FF3232;
         width: 350px;
     }
 }

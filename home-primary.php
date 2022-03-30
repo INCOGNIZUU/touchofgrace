@@ -2,7 +2,6 @@
 <?php include 'inc/navbar.php'; ?>
 
 <section class="home">
-    <a href="./login.php" class="logout-mobile">Logout</a>
     <div class="bg-img">
     </div>
 
@@ -61,7 +60,7 @@
 
     <!-- Functions -->
     <section class="functions" id="functions">
-        <button id="create-account">Create Account</button>
+        <button id="create-account">Cell Report</button>
         <!-- Create Account Modal -->
         <div class="create-modal" id="create-modal">
             <div class="create-modal-content" id="create-modal-content">
@@ -160,7 +159,7 @@
                 </form>
             </div>
         </div>
-        <button id="submit-report">Submit Report</button>
+        <button id="submit-report">Ministry Report</button>
         <!-- Submit Report Modal -->
         <div class="submit-modal" id="submit-modal">
             <div class="submit-modal-content" id="submit-modal-content">
@@ -218,7 +217,7 @@
                 </form>
             </div>
         </div>
-        <button id="generate-report">Generate Report</button>
+        <button id="generate-report">Add</button>
         <!-- Generate Report Modal -->
         <div class="generate-modal" id="generate-modal">
             <div class="generate-modal-content" id="generate-modal-content">
@@ -294,88 +293,119 @@
         </div>
     </section>
 
-    <!-- Trainings -->
-    <section class="trainings" id="trainings">
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Training Icon.png" alt="Traning">
-                <p>32</p>
-            </div>
-            <h2>Training</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Basic Icon.png" alt="Basic">
-                <p>43</p>
-            </div>
-            <h2>Basic</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Life Class.png" alt="Life Class">
-                <p>12</p>
-            </div>
-            <h2>Life Class</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Sol 1 Icon.png" alt="Sol 1">
-                <p>44</p>
-            </div>
-            <h2>Sol 1</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Sol 2 Icon.png" alt="Sol 2">
-                <p>12</p>
-            </div>
-            <h2>Sol 2</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Sol 3 Icon.png" alt="Sol 3">
-                <p>32</p>
-            </div>
-            <h2>Sol 3</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Cell Group Icon.png" alt="Cell Group">
-                <p>32</p>
-            </div>
-            <h2>Cell Group</h2>
+    <section class="table">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Birthday</th>
+                <th>Age</th>
+                <th>Date Started</th>
+                <th>Contact Number</th>
+                <th>Ministry</th>
+                <th>Provision</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>4 August 2021</td>
+                <td>14</td>
+                <td>4 August 2021</td>
+                <td>09123456789</td>
+                <td>Lorem Impsum</td>
+                <td>Provision</td>
+            </tr>
 
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Baptism Icon.png" alt="Baptism">
-                <p>12</p>
-            </div>
-            <h2>Baptism</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Wedding Icon.png" alt="Weddings">
-                <p>17</p>
-            </div>
-            <h2>Weddings</h2>
-
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/C.D.png" alt="C.D">
-                <p>17</p>
-            </div>
-            <h2>C.D</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Gone.png" alt="Gone">
-                <p>12</p>
-            </div>
-            <h2>Gone</h2>
-
-        </div>
+        </table>
     </section>
+
     <script src="js/home.js"></script>
 </section>
