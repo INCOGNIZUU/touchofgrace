@@ -1,7 +1,7 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/navbar.php'; ?>
 
-<section class="home">
+<section class="home-primary">
     <div class="bg-img">
     </div>
 
@@ -293,7 +293,26 @@
         </div>
     </section>
 
-    <section class="table">
+    <section class="primary-table-filter">
+        <div class="checkbox">
+            <div>
+                <input type="checkbox" id="personal-info">
+                <label for="personal-info">Personal Information</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="personal-info">
+                <label for="personal-info">Work Information</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="ministry-info">
+                <label for="ministry-info">Ministry Information</label>
+            </div>
+        </div>
+    </section>
+
+    <section class="primary-table">
         <table>
             <tr>
                 <th>Name</th>
@@ -406,6 +425,8 @@
 
         </table>
     </section>
+
+
 
     <script src="js/home.js"></script>
 </section>

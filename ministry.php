@@ -3,12 +3,12 @@
 
 <section class="ministry">
 
-    <div class="ministry-banner">
+    <section class="ministry-banner">
         <img src="images/ministry-banner.png" alt="">
         <h1>Ministry</h1>
-    </div>
+    </section>
 
-    <div class="ministry-content">
+    <section class="ministry-content">
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4" id="ministry-btn">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
@@ -109,7 +109,7 @@
 
 
 
-    </div>
+    </section>
 
 </section>
 <script src="js/ministry.js"></script>

@@ -3,17 +3,17 @@
 
 
 <section class="pastors">
-    <div class="pastors-banner">
+    <section class="pastors-banner">
         <img src="images/pastor-banner.png" alt="">
         <h1>Pastors</h1>
-    </div>
+    </section>
 
-    <div class="pastor-filter hidden-sm-up">
+    <section class="pastor-filter hidden-sm-up">
         <img src="images/Filter.png" alt="">
         <input type="search" placeholder="Search">
-    </div>
+    </section>
 
-    <div class="pastor-content">
+    <section class="pastor-content">
         <div class="pastor-profile col-sm-12 col-md-6 col-lg-4" id="pastor-btn">
             <img src=" images/profile/profile-circle.png" alt="">
             <div>
@@ -49,6 +49,6 @@
                 <p>Lorem Ipsum</p>
             </div>
         </div>
-    </div>
+    </section>
     <script src="js/pastors.js"></script>
 </section>

@@ -78,9 +78,15 @@
      font-family: metropolis;
      src: url(../fonts/Metropolis-Font-Family/Metropolis-Regular.ttf);
  }
+
+ @font-face {
+    font-family: metropolis-md;
+    src: url(../fonts/Metropolis-Font-Family/Metropolis-Medium.ttf);
+}
+
  @font-face {
     font-family: metropolis-bold;
-    src: url(/fonts/Metropolis-Font-Family/Metropolis-Bold.ttf);
+    src: url(../fonts/Metropolis-Font-Family/Metropolis-Bold.ttf);
 }
  
  body {
@@ -1073,14 +1079,14 @@
     height: 315px;
     background-color: #39A7AA;
     background-image: url('../images/profile/Vector.png');
-    background-size: 200%;
+    background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 @media (min-width: 769px) {
     .home > .bg-img {
-        background-size: 100%;
+        background-size: 50%;
     }
     
 }

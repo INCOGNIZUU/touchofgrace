@@ -4,18 +4,18 @@
 
 <section class="primary">
 
-    <div class="primary-banner">
+    <section class="primary-banner">
         <img src="images/primary-banner.png" alt="">
         <h1>Primary</h1>
-    </div>
+    </section>
 
-    <div class="primary-filter">
+    <section class="primary-filter">
         <button>All</button>
         <button>Male</button>
         <button>Female</button>
-    </div>
+    </section>
 
-    <div class="primary-content">
+    <section class="primary-content">
         <div class="primary-profile col-sm-12 col-md-6 col-lg-4" id="primary-btn">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
@@ -86,7 +86,7 @@
                 <p>Lorem Ipsum</p>
             </div>
         </div>
-    </div>
+    </section>
 
 </section>
 <script src="js/primary.js"></script>
