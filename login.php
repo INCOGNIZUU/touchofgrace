@@ -29,7 +29,6 @@
                 <input type="text" placeholder="Username">
                 <input type="password" placeholder="Password">
                 <a href="./home.php">Login</a>
-                <!-- <button>Log In</button> -->
             </form>
         </div>
     </main>

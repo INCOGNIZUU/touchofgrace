@@ -23,7 +23,6 @@
  * Multi-list............Multiple column lists.
  * Tables................Table Styles.
  * Forms.................Form Elements.
- * Breadcrumbs...........Breadcrumbs.
  * Pagination............Pagination.
  *
  * UI
@@ -940,40 +939,43 @@
 }
 
 
-
 .navbar nav ul li:nth-child(1):hover {
-    background-color: #39A7AA;
+    filter: invert(60%) sepia(83%) saturate(306%) hue-rotate(133deg) brightness(81%) contrast(94%);
 }
+
 .navbar nav ul li:nth-child(2):hover {
-    background-color: #48BEFF;
+    filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
 }
+
 .navbar nav ul li:nth-child(3):hover {
-    background-color: #3DBD96;
+    filter: invert(70%) sepia(54%) saturate(469%) hue-rotate(110deg) brightness(83%) contrast(87%);
 }
+
 .navbar nav ul li:nth-child(4):hover {
-    background-color: #A3D465;
+    filter: invert(80%) sepia(19%) saturate(956%) hue-rotate(43deg) brightness(94%) contrast(95%);
 }
+
 .navbar nav ul li:nth-child(5){
     display: none;
     position: absolute;
     bottom: 0;
 }
-.navbar nav ul li:nth-child(5) a{
-    color: #70BFC1;
-}
 
 .active1 {
-    background-color: #39A7AA;
+    filter: invert(60%) sepia(83%) saturate(306%) hue-rotate(133deg) brightness(81%) contrast(94%);
 }
 .active2 {
-    background-color: #48BEFF;
+    filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
 }
 .active3 {
-    background-color: #3DBD96;
+    filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
 }
 .active4 {
-    background-color: #A3D465;
+    filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
 }
+
+    
+
 /* Sidebar Responsive */
 @media (min-width: 769px) {
     main {
@@ -1011,6 +1013,48 @@
 
     .navbar nav ul li:nth-child(5){
         display: block;
+    }
+
+
+
+    .navbar nav ul li:nth-child(1):hover {
+        filter: none;
+        background-color: #39A7AA;
+    }
+    .navbar nav ul li:nth-child(2):hover {
+        filter: none;
+        background-color: #48BEFF;
+    }
+    .navbar nav ul li:nth-child(3):hover {
+        filter: none;
+        background-color: #3DBD96;
+    }
+    .navbar nav ul li:nth-child(4):hover {
+        filter: none;
+        background-color: #A3D465;
+    }
+    .navbar nav ul li:nth-child(5) a{
+        color: #70BFC1;
+    }
+    .navbar nav ul li:nth-child(5):hover a{
+        opacity: .5;
+    }
+    
+    .active1 {
+        filter: none;
+        background-color: #39A7AA;
+    }
+    .active2 {
+        filter: none;
+        background-color: #48BEFF;
+    }
+    .active3 {
+        filter: none;
+        background-color: #3DBD96;
+    }
+    .active4 {
+        filter: none;
+        background-color: #A3D465;
     }
 }
 

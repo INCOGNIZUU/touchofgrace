@@ -1,8 +1,6 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/navbar.php'; ?>
 
-<? $page = "home"; ?>
-
 <section class="home">
     <a href="./login.php" class="logout-mobile">Logout</a>
     <div class="bg-img">

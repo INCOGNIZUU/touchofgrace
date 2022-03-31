@@ -986,7 +986,7 @@ header > a {
     }
     .background-top-desktop {
         width: 100%;
-        display: inline;
+        display: block;
         position: absolute;
         top: 0;
         z-index: 4;

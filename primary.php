@@ -1,7 +1,6 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/navbar.php'; ?>
 
-<? $page = "primary"; ?>
 
 <section class="primary">
 
