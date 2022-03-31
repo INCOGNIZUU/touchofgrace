@@ -1,6 +1,8 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/navbar.php'; ?>
 
+<? $page = "pastors"; ?>
+
 <section class="pastors">
     <div class="pastors-banner">
         <img src="images/pastor-banner.png" alt="">

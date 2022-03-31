@@ -939,15 +939,7 @@
     font-family: metropolis;
 }
 
-.navbar nav ul li:nth-child(5){
-    display: none;
-    position: absolute;
-    bottom: 0;
-}
 
-.navbar nav ul li:nth-child(5) a{
-    color: #70BFC1;
-}
 
 .navbar nav ul li:nth-child(1):hover {
     background-color: #39A7AA;
@@ -961,8 +953,27 @@
 .navbar nav ul li:nth-child(4):hover {
     background-color: #A3D465;
 }
+.navbar nav ul li:nth-child(5){
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
+.navbar nav ul li:nth-child(5) a{
+    color: #70BFC1;
+}
 
-
+.active1 {
+    background-color: #39A7AA;
+}
+.active2 {
+    background-color: #48BEFF;
+}
+.active3 {
+    background-color: #3DBD96;
+}
+.active4 {
+    background-color: #A3D465;
+}
 /* Sidebar Responsive */
 @media (min-width: 769px) {
     main {

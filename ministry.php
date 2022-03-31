@@ -1,6 +1,8 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/navbar.php'; ?>
 
+<? $page = "ministry"; ?>
+
 <section class="ministry">
 
     <div class="ministry-banner">

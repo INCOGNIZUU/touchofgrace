@@ -557,3 +557,8 @@
 .trainings {
     margin-bottom: 100px;
 }
+
+
+.active {
+    background-color: red;
+}
