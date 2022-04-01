@@ -2,7 +2,7 @@
 <?php include 'inc/navbar.php'; ?>
 
 <section class="home">
-    <a href="./login.php" class="logout-mobile">Logout</a>
+    <a href="./login.php" class="logout-mobile hidden-sm-up">Logout</a>
     <div class="bg-img">
     </div>
 
@@ -23,14 +23,13 @@
         <div class="profile-modal" id="profile-modal">
             <div class="profile-modal-content" id="profile-modal-content">
                 <span class="close">&times;</span>
+                <div class="bg-img"></div>
+                <img src="images/profile/Profile Picture.png" alt="Profile Image">
+                <h1>Edit Profile</h1>
                 <form action="submit">
-                    <label>First Name:</label>
-                    <input type="text">
-                    <label>Last Name:</label>
-                    <input type="text">
-                    <label>Email:</label>
-                    <input type="email">
-                    <label>Age:</label>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Email">
                     <input type="number">
                     <div>
                         <label for="male">Male</label>
@@ -40,10 +39,8 @@
                     </div>
                     <label for="birthday">Birthday:</label>
                     <input type="date" id="birthday" name="birthday">
-                    <label>Contact Number:</label>
-                    <input type="tel">
-                    <label>Address:</label>
-                    <input type="text">
+                    <input type="tel" placeholder="Contact Number">
+                    <input type="text" placeholder="Address">
                     <label>Marital Status:</label>
                     <select name="status" id="status">
                         <option value="single">Single</option>
@@ -52,6 +49,15 @@
                         <option value="divorced">Divorced</option>
                         <option value="seperated">Seperated</option>
                     </select>
+
+                    <div class="work-school">
+                        <input type="text" placeholder="Work Experience">
+                        <label for="start">Start</label>
+                        <input type="date">
+                        <label for="end">End</label>
+                        <input type="date">
+
+                    </div>
                     <button id="cancel-edit-profile">Cancel</button>
                     <input type="submit">
                 </form>
@@ -174,14 +180,14 @@
                         <input type="date" id="date">
                     </div>
 
+                    <div class="time">
+                        <label for="time">Time:</label>
+                        <input type="time" id="time">
+                    </div>
+
                     <input type="text" placeholder="Activity">
 
-                    <select name="activity" id="activity">
-                        <option value="" disabled selected>Venue</option>
-                        <option value="#">Lorem</option>
-                        <option value="#">Lorem</option>
-                        <option value="#">Lorem</option>
-                    </select>
+                    <input type="text" placeholder="Venue">
 
                     <input type="text" placeholder="Topic">
 
@@ -205,12 +211,9 @@
                         </div>
                     </div>
 
-                    <select name="facilitator" id="facilitator">
-                        <option value="" disabled selected>Facilitator</option>
-                        <option value="#">Lorem</option>
-                        <option value="#">Lorem</option>
-                        <option value="#">Lorem</option>
-                    </select>
+                    <input type="text" placeholder="Facilitator">
+
+                    <input type="text" placeholder="Speaker">
 
                     <textarea name="notes" id="notes" cols="30" rows="10" placeholder="Notes"></textarea>
 
@@ -239,7 +242,11 @@
                         </div>
                     </div>
 
-                    <input type="text" placeholder="Network">
+                    <div class="filter-gender">
+                        <div class="active">All</div>
+                        <div>Male</div>
+                        <div>Female</div>
+                    </div>
 
                     <div class="checkbox">
                         <div>
@@ -296,13 +303,7 @@
 
     <!-- Trainings -->
     <section class="trainings" id="trainings">
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Training Icon.png" alt="Traning">
-                <p>32</p>
-            </div>
-            <h2>Training</h2>
-        </div>
+
         <div class="training-card">
             <div>
                 <img src="images/training icon/Basic Icon.png" alt="Basic">
@@ -367,14 +368,6 @@
                 <p>17</p>
             </div>
             <h2>C.D</h2>
-        </div>
-        <div class="training-card">
-            <div>
-                <img src="images/training icon/Gone.png" alt="Gone">
-                <p>12</p>
-            </div>
-            <h2>Gone</h2>
-
         </div>
     </section>
     <script src="js/home.js"></script>

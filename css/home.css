@@ -49,6 +49,7 @@
     height: 100%;
 }
 
+.profile-modal-content > .bg-img,
 .create-modal-content > .bg-img,
 .submit-modal-content > .bg-img,
 .generate-modal-content > .bg-img{
@@ -110,6 +111,7 @@
 .submit-modal-content form label,
 .generate-modal-content form label{
     font-family: metropolis;
+    font-size: 13px;
 }
 
 
@@ -156,12 +158,21 @@
 
 /* Profile */
 .logout-mobile {
-    font-family: metropolis;
+    font-family: metropolis-bold;
+    padding: 10px 20px;
     font-size: 40px;
     color: #fff;
     position: absolute;
     top: 20px;
     left: 20px;
+    -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 .profile {
@@ -222,6 +233,36 @@
         width: 95%;
     }
 }
+
+/* Edit Profile Modal */
+.profile-modal-content > .bg-img {
+    background-color: #48BEFF;
+    background-image: url('../images/profile/Vector.png');
+}
+
+.profile-modal-content > img {
+    float: left;
+    margin-left: 50px;
+    margin-top: -100px;
+}
+
+.profile-modal-content form input,
+.profile-modal-content form select {
+    font-family: metropolis;
+    font-size: 13px;
+    color: #48BEFF;
+    border: 0;
+    border-bottom: 1px solid #48BEFF;
+}
+
+
+.profile-modal-content form input::placeholder {
+    font-family: metropolis;
+    font-size: 13px;
+    color: #48BEFF;
+}
+
+
 
   /* Create Modal */
 .create-modal-content > .bg-img {
@@ -292,18 +333,25 @@
     color: #3DBD96;
 }
 
+.submit-modal-content form > input {
+    border: 0;
+    border-bottom: 1px solid #3DBD96;
+}
+
 .submit-modal-content form input::placeholder,
-.submit-modal-content form select,
 .submit-modal-content form label,
 .submit-modal-content form textarea::placeholder{
     color: #3DBD96;
+    font-family: metropolis;
 }
 
 .submit-modal-content form textarea {
+    margin-top: 10px;
     border-color: #3DBD96;
 }
 
-.submit-modal-content form .date {
+.submit-modal-content form .date,
+.submit-modal-content form .time {
     border-bottom: 1px solid #05A575;
     margin-bottom: 10px;
     width: 200px;
@@ -313,15 +361,13 @@
     margin-left: 10px;
 }
 
-.submit-modal-content form input[type="date"] {
+.submit-modal-content form input[type="date"],
+.submit-modal-content form input[type="time"] {
     text-transform: uppercase;
     border: 0;
     color: #3DBD96;
 }
 
-.submit-modal-content form select {
-    margin: 10px 0;
-}
 
 .submit-modal-content form > label {
     margin: 20px 0;
@@ -373,7 +419,6 @@
 }
 
 .generate-modal-content form input::placeholder,
-.generate-modal-content form select,
 .generate-modal-content form label,
 .generate-modal-content form textarea::placeholder{
     color: #A3D465;
@@ -424,6 +469,21 @@
     margin-left: 10px;
 }
 
+.generate-modal .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.generate-modal .filter-gender div {
+    padding: 10px 40px;
+}
+
+.generate-modal .filter-gender .active {
+    background-color: #A3D465;
+    color: #000;
+}
+
 
 
 
@@ -449,95 +509,73 @@
 
 }
 
-.functions button:hover {
-    cursor: pointer;
-}
-
-
 /* Trainings */
 .trainings {
     margin: 40px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+
+.trainings form input {
+    border: 0;
+    border-bottom: 1px solid #4AF851;
+}
+
+@media (min-width: 769px) {
+    .trainings {
+        justify-content: flex-start;
+    }
+}
+
 
 .trainings .training-card:nth-child(1) {
-    background-color: #FF3294;
-    order: 1;
-}
-
-.trainings .training-card:nth-child(2) {
     background-color: #32DAFF;
     order: 2;
 }
 
-.trainings .training-card:nth-child(3) {
+.trainings .training-card:nth-child(2) {
     background-color: #4AF851;
     order: 3;
 }
 
-.trainings .training-card:nth-child(4) {
+.trainings .training-card:nth-child(3) {
     background-color: #FF9040;
     order: 4;
 }
 
-.trainings .training-card:nth-child(5) {
+.trainings .training-card:nth-child(4) {
     background-color: #DF4AF8;
     order: 5;
 }
 
-.trainings .training-card:nth-child(6) {
+.trainings .training-card:nth-child(5) {
     background-color: #325FFF;
     order: 6;
 }
 
-.trainings .training-card:nth-child(7) {
+.trainings .training-card:nth-child(6) {
     background-color: #FFEA32;
     order: 7;
 }
 
-.trainings .training-card:nth-child(8) {
+.trainings .training-card:nth-child(7) {
     background-color: #F46141;
     order: 8;
 }
 
-.trainings .training-card:nth-child(9) {
+.trainings .training-card:nth-child(8) {
     background-color: #34CEBC;
     order: 9;
 }
 
-.trainings .training-card:nth-child(10) {
+.trainings .training-card:nth-child(9) {
     background-color: #40D460;
     order: 10;
 }
 
-.trainings .training-card:nth-child(11) {
-    background-color: #FF3232;
-    order: 11;
-    width: 363px;
-}
 
-@media (max-width: 360px) {
-    .trainings .training-card:nth-child(11) {
-        width: 161px;
-        height: 161px;
-    }
-}
-
-@media (min-width: 769px) {
-    .trainings .training-card:nth-child(11) {
-        background-color: #FF3232;
-        width: 350px;
-    }
-}
-
-@media (min-width: 1368px) {
-    .trainings .training-card:nth-child(11) {
-        order: 8;
-    }
-}
 
 .training-card {
     font-family: 'Lexend', sans-serif;

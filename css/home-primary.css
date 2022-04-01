@@ -35,6 +35,7 @@
 }   
 
 .primary-table-filter .checkbox div {
+    margin-left: 20px;
     color: #3CAA89;
     font-family: metropolis;
     font-size: 14px;
