@@ -30,14 +30,14 @@
                     <input type="text" placeholder="Last Name">
                     <input type="email" placeholder="Email">
                     <input type="number" placeholder="Age">
-                    <div>
-                        <label for="male">Male</label>
-                        <input type="radio" name="gender" id="male" checked>
-                        <label for="female">Female</label>
-                        <input type="radio" name="gender" id="female">
+                    <div class="filter-gender">
+                        <div class="active">Male</div>
+                        <div>Female</div>
                     </div>
-                    <label for="birthday">Birthday:</label>
-                    <input type="date" id="birthday" name="birthday">
+                    <div class="bday">
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
                     <input type="tel" placeholder="Contact Number">
                     <input type="text" placeholder="Address">
                     <!-- <label>Marital Status:</label>
@@ -57,7 +57,6 @@
                         <input type="date">
 
                     </div> -->
-                    <button id="cancel-edit-profile">Cancel</button>
                     <input type="submit">
                 </form>
             </div>

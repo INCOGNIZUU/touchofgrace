@@ -200,11 +200,8 @@
                         <input type="date" id="date">
                     </div>
 
+                    <input type="tel" placeholder="Contact">
 
-                    <div class="contact-num">
-                        <label>Contact Number:</label>
-                        <input type="tel">
-                    </div>
 
                     <div class="filter-gender">
                         <div class="active">Male</div>

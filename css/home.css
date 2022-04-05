@@ -68,6 +68,8 @@
     flex-direction: column;
 }
 
+
+.profile-modal-content h1,
 .create-modal-content h1,
 .submit-modal-content h1,
 .generate-modal-content h1 {
@@ -83,11 +85,12 @@
     height: 30px;
 }
 
+.profile-modal-content form > input[type="submit"],
 .create-modal-content form > input[type="submit"],
 .submit-modal-content form > input[type="submit"],
+.generate-modal-content form > input[type="submit"],
 .create-modal-content form select,
 .submit-modal-content form select,
-.generate-modal-content form > input[type="submit"],
 .generate-modal-content form select{
     border: 0;
     font-family: metropolis;
@@ -105,6 +108,7 @@
     border-bottom: 1px solid #48BEFF;
 }
 
+.profile-modal-content form label,
 .create-modal-content form label,
 .submit-modal-content form label,
 .generate-modal-content form label{
@@ -112,7 +116,13 @@
     font-size: 13px;
 }
 
-
+.profile-modal .filter-gender,
+.generate-modal .filter-gender {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
 
 
 @media (min-width: 769px) {
@@ -245,6 +255,49 @@
     font-size: 13px;
     color: #48BEFF;
     padding: 10px 10px;
+}
+
+.profile-modal .filter-gender div,
+.generate-modal .filter-gender div {
+    padding: 10px 40px;
+}
+
+.profile-modal .filter-gender .active {
+    background-color: #48BEFF;
+    color: #000;
+}
+
+
+.profile-modal-content form > input[type="submit"] {
+    background-color: #48BEFF;
+    color: #ABF7F9;
+}
+
+
+.profile-modal-content form .bday {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid #48BEFF;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.profile-modal-content form input[type="date"] {
+    border: 0;
+}
+
+.profile-modal-content form input::placeholder,
+.profile-modal-content form select,
+.profile-modal-content form label{
+    color: #48BEFF;
+}
+
+.profile-modal-content h1 {
+    color: #48BEFF;
+    margin-top: 20px;
+    font-size: 40px;
 }
 
 
@@ -453,15 +506,7 @@
     margin-left: 10px;
 }
 
-.generate-modal .filter-gender {
-    display: flex;
-    justify-content: flex-start;
-    font-family: metropolis;
-}
 
-.generate-modal .filter-gender div {
-    padding: 10px 40px;
-}
 
 .generate-modal .filter-gender .active {
     background-color: #A3D465;

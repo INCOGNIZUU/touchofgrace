@@ -135,6 +135,13 @@
     margin-top: 10px;
 }
 
+.add-modal-content .filter-gender {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
 /* For All Modals in Home (Level 2)  Desktop View */
 @media (min-width: 769px) {
     .profile-modal-content,
@@ -461,10 +468,7 @@
     color: #A3D465;
 }
 
-.add-modal-content form input[type="tel"] {
-    width: 300px;
-    border: 0;
-}
+
 
 .add-modal-content form .checkbox div label {
     margin-left: 10px;
