@@ -2,7 +2,6 @@
 <?php include 'inc/navbar.php'; ?>
 
 <section class="home">
-    <a href="./login.php" class="logout-mobile hidden-sm-up">Logout</a>
     <div class="bg-img">
     </div>
 
@@ -30,7 +29,7 @@
                     <input type="text" placeholder="First Name">
                     <input type="text" placeholder="Last Name">
                     <input type="email" placeholder="Email">
-                    <input type="number">
+                    <input type="number" placeholder="Age">
                     <div>
                         <label for="male">Male</label>
                         <input type="radio" name="gender" id="male" checked>
@@ -41,7 +40,7 @@
                     <input type="date" id="birthday" name="birthday">
                     <input type="tel" placeholder="Contact Number">
                     <input type="text" placeholder="Address">
-                    <label>Marital Status:</label>
+                    <!-- <label>Marital Status:</label>
                     <select name="status" id="status">
                         <option value="single">Single</option>
                         <option value="married">Married</option>
@@ -57,7 +56,7 @@
                         <label for="end">End</label>
                         <input type="date">
 
-                    </div>
+                    </div> -->
                     <button id="cancel-edit-profile">Cancel</button>
                     <input type="submit">
                 </form>
@@ -191,7 +190,7 @@
 
                     <input type="text" placeholder="Topic">
 
-                    <label for="attendace">Attendace</label>
+                    <label for="attendance">Attendance</label>
                     <div class="attendance" id="attendance">
                         <div>
                             <label for="adult">Adults:</label>

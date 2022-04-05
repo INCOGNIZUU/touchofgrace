@@ -35,11 +35,11 @@
 
 
 /* Ministry Content */
-.ministry-content {
+.ministry .ministry-content {
     margin-top: -100px;
 }
 
-.ministry-content > .ministry-profile {
+.ministry .ministry-content > .ministry-profile {
     text-align: start;
     padding: 20px;
     font-family: metropolis;
@@ -49,7 +49,7 @@
     margin: 0 auto;
 }
 
-.ministry-content > .ministry-profile:hover {
+.ministry .ministry-content > .ministry-profile:hover {
     cursor: pointer;
     border-radius: 20px;
     box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
@@ -57,32 +57,32 @@
     -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
 }
 
-.ministry-profile h1 {
+.ministry .ministry-profile h1 {
     font-family: metropolis-md;
     text-transform: uppercase;
     color: #fff;
     font-size: 24px;
 }
 
-.ministry-profile h2 {
+.ministry .ministry-profile h2 {
     color: #fff;
     font-size: 16px;
     font-weight: 300px;
 }
 
-.ministry-profile div {
+.ministry .ministry-profile div {
     color: #fff;
     margin-left: 20px;
 }
 
-.ministry-profile img {
+.ministry .ministry-profile img {
     width: 161px;
     height: 161px;
 }
 
 
 /* Pastor Modal */
-.ministry-modal{
+.ministry .ministry-modal{
     padding-top: 250px;
     display: none;
     position: fixed;
@@ -96,7 +96,7 @@
     background-color: rgba(0,0,0,0.4);
 }
 
-.ministry-modal-content {
+.ministry .ministry-modal-content {
     text-align: center;
     background-color: #fefefe;
     margin: 0 auto;
@@ -107,7 +107,7 @@
     border-radius: 20px;
 }
 
-.ministry-modal-content img {
+.ministry .ministry-modal-content img {
     width: 161px;
     height: 161px;
     float: left;
@@ -118,11 +118,11 @@
     margin-left: -20px;
 }
 
-.ministry-modal-content .profile-data > p {
+.ministry .ministry-modal-content .profile-data > p {
     margin-top: 20px;
 }
 
-.ministry-modal-content .profile-data h1 {
+.ministry .ministry-modal-content .profile-data h1 {
     font-family: metropolis-md;
     color: #000;
     text-transform: uppercase;

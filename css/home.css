@@ -1,4 +1,4 @@
-/* For All Modals in Home */
+/* For All Modals in Home (Level 1) */
 
 .close {
     color: #fff;
@@ -41,11 +41,9 @@
     width: 100%;
 }
 
-.create-modal-content {
-    height: 100%;
-}
-
-.generate-modal-content {
+.create-modal-content,
+.submit-modal-content,
+.generate-modal-content  {
     height: 100%;
 }
 
@@ -63,7 +61,7 @@
 .profile-modal-content form,
 .create-modal-content form,
 .submit-modal-content form,
-.generate-modal-content form  {
+.generate-modal-content form {
     width: 80%;
     margin: 40px auto;
     display: flex;
@@ -104,7 +102,7 @@
     font-size: 13px;
     height: 30px;
     border: 0;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #48BEFF;
 }
 
 .create-modal-content form label,
@@ -129,6 +127,7 @@
         border-radius: 20px;
     }
 
+    .profile-modal,
     .create-modal,
     .submit-modal,
     .generate-modal {
@@ -147,6 +146,7 @@
         height: 650px;
     }
 
+    .profile-modal-content > .bg-img,
     .create-modal-content > .bg-img,
     .submit-modal-content > .bg-img,
     .generate-modal-content > .bg-img {
@@ -157,23 +157,6 @@
 
 
 /* Profile */
-.logout-mobile {
-    font-family: metropolis-bold;
-    padding: 10px 20px;
-    font-size: 40px;
-    color: #fff;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-}
 
 .profile {
     font-family: metropolis;
@@ -253,6 +236,7 @@
     color: #48BEFF;
     border: 0;
     border-bottom: 1px solid #48BEFF;
+    padding: 10px 0;
 }
 
 
@@ -260,6 +244,7 @@
     font-family: metropolis;
     font-size: 13px;
     color: #48BEFF;
+    padding: 10px 10px;
 }
 
 
@@ -282,7 +267,6 @@
 .create-modal-content h1 {
     color: #48BEFF;
 }
-
 
 .create-modal-content form input[type="email"],
 .create-modal-content form select {

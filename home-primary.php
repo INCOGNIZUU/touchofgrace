@@ -23,26 +23,22 @@
             <div class="profile-modal-content" id="profile-modal-content">
                 <span class="close">&times;</span>
                 <form action="submit">
-                    <label>First Name:</label>
-                    <input type="text">
-                    <label>Last Name:</label>
-                    <input type="text">
-                    <label>Email:</label>
-                    <input type="email">
-                    <label>Age:</label>
-                    <input type="number">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Email">
+                    <input type="number" placeholder="Age">
                     <div>
                         <label for="male">Male</label>
                         <input type="radio" name="gender" id="male" checked>
                         <label for="female">Female</label>
                         <input type="radio" name="gender" id="female">
                     </div>
-                    <label for="birthday">Birthday:</label>
-                    <input type="date" id="birthday" name="birthday">
-                    <label>Contact Number:</label>
-                    <input type="tel">
-                    <label>Address:</label>
-                    <input type="text">
+                    <div>
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                    <input type="tel" placeholder="Contact Number">
+                    <input type="text" placeholder="Address">
                     <label>Marital Status:</label>
                     <select name="status" id="status">
                         <option value="single">Single</option>
@@ -51,6 +47,15 @@
                         <option value="divorced">Divorced</option>
                         <option value="seperated">Seperated</option>
                     </select>
+
+                    <div class="work-school">
+                        <input type="text" placeholder="Work Experience">
+                        <label for="start">Start</label>
+                        <input type="date">
+                        <label for="end">End</label>
+                        <input type="date">
+
+                    </div>
                     <button id="cancel-edit-profile">Cancel</button>
                     <input type="submit">
                 </form>
@@ -60,21 +65,162 @@
 
     <!-- Functions -->
     <section class="functions" id="functions">
-        <button id="create-account">Cell Report</button>
-        <!-- Create Account Modal -->
-        <div class="create-modal" id="create-modal">
-            <div class="create-modal-content" id="create-modal-content">
+        <button id="cell-report">Cell Report</button>
+        <!-- Cell Report Modal -->
+        <div class="cell-modal" id="cell-modal">
+            <div class="cell-modal-content" id="cell-modal-content">
                 <span class="close">&times;</span>
                 <div class="bg-img"></div>
                 <form action="submit">
-                    <h1>Create Account</h1>
-                    <input type="email" placeholder="Email">
-                    <select name="role" id="role">
-                        <option value="" disabled selected>Role</option>
-                        <option value="pastor">Pastor</option>
-                        <option value="activity">Activity</option>
-                        <option value="primary">Primary Leader</option>
+                    <h1>Cell Report</h1>
+
+                    <div class="date">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date">
+                    </div>
+
+                    <div class="time">
+                        <label for="time">Time:</label>
+                        <input type="time" id="time">
+                    </div>
+
+                    <input type="text" placeholder="Activity">
+
+                    <input type="text" placeholder="Venue">
+
+                    <input type="text" placeholder="Topic">
+
+                    <label for="attendance">Attendance</label>
+                    <div class="attendance" id="attendance">
+                        <div>
+                            <label for="adult">Adults:</label>
+                            <input type="number" id="adult">
+                        </div>
+                        <div>
+                            <label for="children">Children:</label>
+                            <input type="number" id="children">
+                        </div>
+                        <div>
+                            <label for="youth">Youth:</label>
+                            <input type="number" id="youth">
+                        </div>
+                        <div>
+                            <label>Total:</label>
+                            <label>Total Number</label>
+                        </div>
+                    </div>
+
+                    <input type="text" placeholder="Facilitator">
+
+                    <input type="text" placeholder="Speaker">
+
+                    <textarea name="notes" id="notes" cols="30" rows="10" placeholder="Notes"></textarea>
+
+                    <input type="submit" value="Cell Report">
+                </form>
+            </div>
+        </div>
+        <button id="ministry-report">Ministry Report</button>
+        <!-- Submit Report Modal -->
+        <div class="ministry-modal" id="ministry-modal">
+            <div class="ministry-modal-content" id="ministry-modal-content">
+                <span class="close">&times;</span>
+                <div class="bg-img"></div>
+                <form action="submit">
+                    <h1>Ministry Report</h1>
+
+                    <div class="date">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date">
+                    </div>
+
+                    <div class="time">
+                        <label for="time">Time:</label>
+                        <input type="time" id="time">
+                    </div>
+
+                    <input type="text" placeholder="Activity">
+
+                    <input type="text" placeholder="Venue">
+
+                    <input type="text" placeholder="Topic">
+
+                    <label for="attendance">Attendance</label>
+                    <div class="attendance" id="attendance">
+                        <div>
+                            <label for="adult">Adults:</label>
+                            <input type="number" id="adult">
+                        </div>
+                        <div>
+                            <label for="children">Children:</label>
+                            <input type="number" id="children">
+                        </div>
+                        <div>
+                            <label for="youth">Youth:</label>
+                            <input type="number" id="youth">
+                        </div>
+                        <div>
+                            <label>Total:</label>
+                            <label>Total Number</label>
+                        </div>
+                    </div>
+
+                    <input type="text" placeholder="Facilitator">
+
+                    <input type="text" placeholder="Speaker">
+
+                    <textarea name="notes" id="notes" cols="30" rows="10" placeholder="Notes"></textarea>
+
+                    <input type="submit" value="Ministry Report">
+                </form>
+            </div>
+        </div>
+        <button id="add-disc">Add</button>
+        <!-- Add Disc Modal -->
+        <div class="add-modal" id="add-modal">
+            <div class="add-modal-content" id="add-modal-content">
+                <span class="close">&times;</span>
+                <div class="bg-img"></div>
+                <form action="submit">
+                    <h1>Add Disciple</h1>
+
+                    <input type="text" placeholder="First Name">
+
+                    <input type="text" placeholder="Last Name">
+
+                    <div class="bday">
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+
+                    <input type="number" placeholder="Age">
+
+                    <div class="date">
+                        <label for="date">Date Started:</label>
+                        <input type="date" id="date">
+                    </div>
+
+
+                    <div class="contact-num">
+                        <label>Contact Number:</label>
+                        <input type="tel">
+                    </div>
+
+                    <div class="filter-gender">
+                        <div class="active">Male</div>
+                        <div>Female</div>
+                    </div>
+
+                    <select name="training" id="training">
+                        <option value="" disabled selected>Training</option>
+                        <option value="basic">Basic</option>
+                        <option value="life-class">Life Class</option>
+                        <option value="sol1">Sol 1</option>
+                        <option value="sol2">Sol 2</option>
+                        <option value="sol3">Sol 3</option>
+                        <option value="cell-group">Cell Group</option>
                     </select>
+
                     <label>Ministry</label>
                     <div class="checkbox">
                         <div>
@@ -155,145 +301,13 @@
 
                     </div>
 
-                    <input type="submit" value="Add Leader">
-                </form>
-            </div>
-        </div>
-        <button id="submit-report">Ministry Report</button>
-        <!-- Submit Report Modal -->
-        <div class="submit-modal" id="submit-modal">
-            <div class="submit-modal-content" id="submit-modal-content">
-                <span class="close">&times;</span>
-                <div class="bg-img"></div>
-                <form action="submit">
-                    <h1>Submit Report</h1>
-
-                    <div class="date">
-                        <label for="date">Date:</label>
-                        <input type="date" id="date">
-                    </div>
-
-                    <input type="text" placeholder="Activity">
-
-                    <select name="activity" id="activity">
-                        <option value="" disabled selected>Venue</option>
-                        <option value="#">Lorem</option>
-                        <option value="#">Lorem</option>
-                        <option value="#">Lorem</option>
-                    </select>
-
-                    <input type="text" placeholder="Topic">
-
-                    <label for="attendace">Attendace</label>
-                    <div class="attendance" id="attendance">
-                        <div>
-                            <label for="adult">Adults:</label>
-                            <input type="number" id="adult">
-                        </div>
-                        <div>
-                            <label for="children">Children:</label>
-                            <input type="number" id="children">
-                        </div>
-                        <div>
-                            <label for="youth">Youth:</label>
-                            <input type="number" id="youth">
-                        </div>
-                        <div>
-                            <label>Total:</label>
-                            <label>Total Number</label>
-                        </div>
-                    </div>
-
-                    <select name="facilitator" id="facilitator">
-                        <option value="" disabled selected>Facilitator</option>
-                        <option value="#">Lorem</option>
-                        <option value="#">Lorem</option>
-                        <option value="#">Lorem</option>
-                    </select>
-
-                    <textarea name="notes" id="notes" cols="30" rows="10" placeholder="Notes"></textarea>
-
-                    <input type="submit" value="Submit Report">
-                </form>
-            </div>
-        </div>
-        <button id="generate-report">Add</button>
-        <!-- Generate Report Modal -->
-        <div class="generate-modal" id="generate-modal">
-            <div class="generate-modal-content" id="generate-modal-content">
-                <span class="close">&times;</span>
-                <div class="bg-img"></div>
-                <form action="submit">
-                    <h1>Generate Report</h1>
-
-                    <div>
-                        <div class="date">
-                            <label for="date">From:</label>
-                            <input type="date" id="date">
-                        </div>
-
-                        <div class="date">
-                            <label for="date">To:</label>
-                            <input type="date" id="date">
-                        </div>
-                    </div>
-
-                    <input type="text" placeholder="Network">
-
-                    <div class="checkbox">
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="">
-                            <label for="">Lorem</label>
-                        </div>
-                    </div>
-
-                    <input type="submit" value="Generate Report">
+                    <input type="submit" value="Add Disciple">
                 </form>
             </div>
         </div>
     </section>
 
-    <section class="primary-table-filter">
+    <!-- <section class="primary-table-filter">
         <div class="checkbox">
             <div>
                 <input type="checkbox" id="personal-info">
@@ -310,7 +324,7 @@
                 <label for="ministry-info">Ministry Information</label>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="primary-table">
         <table>
@@ -321,7 +335,7 @@
                 <th>Date Started</th>
                 <th>Contact Number</th>
                 <th>Ministry</th>
-                <th>Provision</th>
+                <th>Training</th>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -330,7 +344,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -339,7 +353,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -348,7 +362,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -357,7 +371,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -366,7 +380,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -375,7 +389,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -384,7 +398,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -393,7 +407,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -402,7 +416,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -411,7 +425,7 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -420,13 +434,13 @@
                 <td>4 August 2021</td>
                 <td>09123456789</td>
                 <td>Lorem Impsum</td>
-                <td>Provision</td>
+                <td>Training</td>
             </tr>
 
         </table>
     </section>
 
 
-
-    <script src="js/home.js"></script>
+    <!-- <script src="js/home.js"></script> -->
+    <script src="js/home-primary.js"></script>
 </section>

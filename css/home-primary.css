@@ -24,6 +24,469 @@
 }
 
 
+/* For All Modals in Home (Level 2) */
+.close {
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.add-modal,
+.cell-modal,
+.ministry-modal {
+    display: none;
+    position: fixed;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+ }
+
+ .add-modal-content,
+ .cell-modal-content,
+ .ministry-modal-content {
+    background-color: #fefefe;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.add-modal-content,
+.cell-modal-content,
+.ministry-modal-content {
+    height: 100%;
+}
+
+.profile-modal-content > .bg-img,
+.add-modal-content > .bg-img,
+.cell-modal-content > .bg-img,
+.ministry-modal-content > .bg-img{
+   width: 100%;
+   height: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.profile-modal-content form,
+.add-modal-content form,
+.cell-modal-content form,
+.ministry-modal-content form {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-modal-content h1,
+.cell-modal-content h1,
+.ministry-modal-content h1 {
+    font-family: metropolis-md;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.add-modal-content form input,
+.cell-modal-content form input,
+.ministry-modal-content form input {
+    height: 30px;
+}
+
+.add-modal-content form > input[type="submit"],
+.cell-modal-content form > input[type="submit"],
+.ministry-modal-content form > input[type="submit"],
+.add-modal-content form select,
+.cell-modal-content form select,
+.ministry-modal-content form select{
+    border: 0;
+    font-family: metropolis;
+    width: 100%;
+    height: 30px;
+    margin: 30px 0;
+    font-size: 13px;
+    border-bottom: 1px solid;
+}
+
+
+
+.add-modal-content form label,
+.cell-modal-content form label,
+.ministry-modal-content form label{
+    font-family: metropolis;
+    font-size: 13px;
+}
+
+.cell-modal-content form textarea,
+.ministry-modal-content form textarea{
+    margin-top: 10px;
+}
+
+/* For All Modals in Home (Level 2)  Desktop View */
+@media (min-width: 769px) {
+    .profile-modal-content,
+    .add-modal-content,
+    .cell-modal-content,
+    .ministry-modal-content {
+        background-color: #fefefe;
+        margin: 0 auto;
+        border: 1px solid #888;
+        width: 613px;
+        border-radius: 20px;
+    }
+
+    .add-modal,
+    .cell-modal,
+    .ministry-modal {
+        padding-top: 50px;
+    }
+
+    .add-modal-content {
+        height: 1050px;
+    }
+
+    .cell-modal-content {
+        height: 900px;
+    }
+    
+    .ministry-modal-content {
+        height: 900px;
+    }
+
+    .cell-modal-content > .bg-img,
+    .add-modal-content > .bg-img,
+    .ministry-modal-content > .bg-img {
+        border-radius: 20px 20px 0 0;
+    }
+    
+}
+
+
+/* Cell Modal */
+.home-primary .cell-modal-content > .bg-img {
+    background-color: #48BEFF;
+    background-image: url('../images/profile/Vector.png');
+}
+.cell-modal-content form {
+    color: #48BEFF;
+}
+
+.cell-modal-content form > input[type="submit"] {
+    background-color: #48BEFF;
+    color: #ABF7F9;
+}
+
+.cell-modal-content h1 {
+    color: #48BEFF;
+}
+
+.cell-modal-content form input::placeholder,
+.cell-modal-content form label,
+.cell-modal-content form textarea::placeholder{
+    color: #48BEFF;
+}
+
+.cell-modal-content form textarea {
+    border-color: #48BEFF;
+}
+
+.cell-modal-content form .date {
+    border: 0;
+    border-bottom: 1px solid #48BEFF;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.cell-modal-content form input[type="date"] {
+    color: #48BEFF;
+    text-transform: uppercase;
+    border: 0;
+}
+
+
+.cell-modal-content form input {
+    border: 0;
+    border-bottom: 1px solid #48BEFF;
+}
+
+.cell-modal .checkbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell-modal .checkbox div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.cell-modal .checkbox div label {
+    margin-left: 10px;
+}
+
+.cell-modal .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.cell-modal .filter-gender div {
+    padding: 10px 40px;
+}
+
+.cell-modal .filter-gender .active {
+    background-color: #48BEFF;
+    color: #000;
+}
+
+.cell-modal-content form input::placeholder,
+.cell-modal-content form select,
+.cell-modal-content form label{
+    color: #48BEFF;
+}
+
+
+
+/* Ministry Modal */
+.home-primary .ministry-modal-content > .bg-img {
+    background-color: #3DBD96;
+    background-image: url('../images/profile/Vector.png');
+}
+
+.ministry-modal-content form {
+    color: #3DBD96;
+}
+
+.ministry-modal-content form > input[type="submit"] {
+    background-color: #3DBD96;
+    color: #ABF7F9;
+}
+
+.ministry-modal-content h1 {
+    color: #3DBD96;
+}
+
+.ministry-modal-content form input::placeholder,
+.ministry-modal-content form label,
+.ministry-modal-content form textarea::placeholder{
+    color: #3DBD96;
+}
+
+.ministry-modal-content form textarea {
+    border-color: #3DBD96;
+}
+
+.ministry-modal-content form .date {
+    border: 0;
+    border-bottom: 1px solid #3DBD96;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.ministry-modal-content form input[type="date"] {
+    color: #3DBD96;
+    text-transform: uppercase;
+    border: 0;
+}
+
+
+.ministry-modal-content form input {
+    border: 0;
+    border-bottom: 1px solid #3DBD96;
+}
+
+.ministry-modal .checkbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ministry-modal .checkbox div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.ministry-modal .checkbox div label {
+    margin-left: 10px;
+}
+
+.ministry-modal .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.ministry-modal .filter-gender div {
+    padding: 10px 40px;
+}
+
+.ministry-modal .filter-gender .active {
+    background-color: #3DBD96;
+    color: #000;
+}
+
+.ministry-modal-content form input::placeholder,
+.ministry-modal-content form select,
+.ministry-modal-content form label{
+    color: #3DBD96;
+}
+
+ 
+
+/* Add Modal */
+
+.home-primary .add-modal-content > .bg-img {
+    background-color: #A3D465;
+    background-image: url('../images/profile/Vector.png');
+}
+
+.add-modal-content form {
+    color: #A3D465;
+}
+
+.add-modal-content form > input[type="submit"] {
+    background-color: #A3D465;
+    color: #ABF7F9;
+}
+
+.add-modal-content h1 {
+    color: #A3D465;
+}
+
+.add-modal-content form input::placeholder,
+.add-modal-content form label,
+.add-modal-content form textarea::placeholder{
+    color: #A3D465;
+}
+
+.add-modal-content form textarea {
+    border-color: #A3D465;
+}
+
+.add-modal-content form .date {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+    margin-bottom: 10px;
+}
+
+.add-modal-content form .bday {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+    margin-bottom: 10px;
+}
+
+.add-modal-content form .contact-num {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+    margin-bottom: 10px;
+}
+
+.add-modal-content form input[type="date"] {
+    color: #A3D465;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.add-modal-content form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-modal-content form input {
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+}
+
+.add-modal .checkbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-modal .checkbox div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.add-modal .checkbox div label {
+    margin-left: 10px;
+}
+
+.add-modal .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.add-modal .filter-gender div {
+    padding: 10px 40px;
+}
+
+.add-modal .filter-gender .active {
+    background-color: #A3D465;
+    color: #000;
+}
+
+.add-modal-content form input::placeholder,
+.add-modal-content form select,
+.add-modal-content form label{
+    color: #A3D465;
+}
+
+.add-modal-content form input[type="tel"] {
+    width: 300px;
+    border: 0;
+}
+
+.add-modal-content form .checkbox div label {
+    margin-left: 10px;
+}
+
+.add-modal-content form .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.add-modal-content form .filter-gender div {
+    padding: 10px 40px;
+}
+
+.add-modal-content form .filter-gender .active {
+    background-color: #A3D465;
+    color: #000;
+}
+
+
+
 /* Primary Table Filter */
 .primary-table-filter {
     margin: 20px 0;

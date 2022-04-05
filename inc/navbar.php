@@ -29,7 +29,12 @@
                     Ministry
                 </a>
             </li>
-            <li><a href="./login.php">Logout</a></li>
+            <li>
+                <a href="./login.php">
+                    <img src="images/navbar/logout tab.png" alt="">
+                    Logout
+                </a>
+            </li>
         </ul>
     </nav>
 </header>

@@ -961,10 +961,8 @@
     filter: invert(80%) sepia(19%) saturate(956%) hue-rotate(43deg) brightness(94%) contrast(95%);
 }
 
-.navbar nav ul li:nth-child(5){
-    display: none;
-    position: absolute;
-    bottom: 0;
+.navbar nav ul li:nth-child(5):hover{filter: invert(47%) sepia(23%) saturate(4110%) hue-rotate(337deg) brightness(101%) contrast(92%);
+
 }
 
 .active1 {
@@ -974,10 +972,10 @@
     filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
 }
 .active3 {
-    filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
+    filter: invert(70%) sepia(54%) saturate(469%) hue-rotate(110deg) brightness(83%) contrast(87%);
 }
 .active4 {
-    filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
+    filter: invert(80%) sepia(19%) saturate(956%) hue-rotate(43deg) brightness(94%) contrast(95%);
 }
 
     
@@ -1018,7 +1016,10 @@
     }
 
     .navbar nav ul li:nth-child(5){
-        display: block;
+        display: block;    
+        position: absolute;
+        bottom: 0;
+        filter: invert(47%) sepia(23%) saturate(4110%) hue-rotate(337deg) brightness(101%) contrast(92%);
     }
 
 
@@ -1039,11 +1040,9 @@
         filter: none;
         background-color: #A3D465;
     }
-    .navbar nav ul li:nth-child(5) a{
-        color: #70BFC1;
-    }
     .navbar nav ul li:nth-child(5):hover a{
         opacity: .5;
+        filter: none;
     }
     
     .active1 {
