@@ -28,7 +28,8 @@
             <form class="login" action="submit">
                 <input type="text" placeholder="Username">
                 <input type="password" placeholder="Password">
-                <a href="./home.php">Login</a>
+                <a class="logbot" href="./home.php">Login</a>
+                <a href="./forgotpass.php">Forgot Password? Click Here.</a>
             </form>
         </div>
     </main>

@@ -1007,7 +1007,8 @@ header > a {
     align-items: center;
 }
 
-.container-form {
+.container-form,
+.container-form-pass {
     z-index: 5;
     text-align: center;
     background-color: #fff;
@@ -1020,17 +1021,20 @@ header > a {
     -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,1);
 }
 
-.container-form .logo {
+.container-form .logo,
+.container-form-pass .logo {
     margin-top: 60px;
     width: 100px;
     height: auto;
 }
 
-.container-form > h1 {
+.container-form > h1,
+.container-form-pass > h1 {
     margin-top: 35px;
 }
 
-.container-form form {
+.container-form form,
+.container-form-pass form {
     margin-top: 10px;
     color: #000;
     display: flex;
@@ -1040,14 +1044,16 @@ header > a {
     padding-bottom: 100px;
 }
 
-.container-form ::placeholder {
+.container-form ::placeholder,
+.container-form-pass ::placeholder {
     color: #000;
     font-family: metropolis;
     font-size: 18px;
 }
 
 .login input,
-.login a {
+.login .logbot,
+.forgotbot {
     margin: 20px 0;
     height: 40px;
     padding-left: 15px;
@@ -1056,7 +1062,8 @@ header > a {
     border-radius: 20px;
 }
 
-.login a {
+.login .logbot,
+.forgotbot {
     padding: 10px;
     font-size: 18px;
     font-family: metropolis;
@@ -1064,21 +1071,33 @@ header > a {
     color: #fff;
 }
 
-.container-form form input {
+.container-form form input,
+.container-form-pass form input {
     background-color: rgb(239, 239, 239);
 }
 
+.container-form form a,
+.container-form-pass form button,
+.container-form-pass label{
+    font-size: 18px;
+    font-family: metropolis;
+}
+
 @media (min-width: 769px) {
-    .container-form {
-        height: 521px;
+    .container-form,
+    .container-form-pass {
+        height: 550px;
     }
     
     .login input,
-    .login a {
+    .login .logbot,
+    .forgotbot,
+    .container-form-pass label {
     width: 50%;
     }
 
-    .container-form .logo {
+    .container-form .logo,
+    .container-form-pass .logo {
         margin: 20px;
     }
 }

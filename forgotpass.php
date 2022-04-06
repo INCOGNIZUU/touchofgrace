@@ -12,9 +12,9 @@
 
 <body>
     <header>
-        <a href="#" class="back-botton">
+        <a href="./login.php" class="back-botton">
             <img src="images/login/chevron-left.svg" alt="">
-            <span>Back to website</span>
+            <span>Back to Login</span>
         </a>
         <img src="images/login/header-mobile.png" alt="" class="hand-top-mobile">
         <img src="images/login/Hand2.svg" alt="" class="hand-top-desktop">
@@ -22,13 +22,14 @@
         <img src="images/login/Top.svg" alt="" class="background-top-desktop">
     </header>
     <main>
-        <div class="container-form">
+        <div class="container-form-pass">
             <img class="logo" src="images/logo-whole.svg" alt="">
             <h1>Touch of Grace</h1>
             <form class="login" action="submit">
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <a href="./home.php">Login</a>
+                <input type="text" placeholder="Please enter your email">
+                <button class="forgotbot" type="submit">Send</button>
+                <label>We will be sending email a password reset link to your email</label>
+
             </form>
         </div>
     </main>
