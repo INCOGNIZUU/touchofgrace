@@ -19,7 +19,13 @@
 .profile-modal,
 .create-modal,
 .submit-modal,
-.generate-modal {
+.generate-modal,
+.basic-modal,
+.life-modal,
+.sol1-modal,
+.sol2-modal,
+.sol3-modal,
+.cell-modal {
    display: none;
    position: fixed;
    z-index: 6;
@@ -35,18 +41,19 @@
 .profile-modal-content,
 .create-modal-content,
 .submit-modal-content,
-.generate-modal-content {
+.generate-modal-content,
+.basic-modal-content,
+.life-modal-content,
+.sol1-modal-content,
+.sol2-modal-content,
+.sol3-modal-content,
+.cell-modal-content {
     background-color: #fefefe;
     margin: 0 auto;
     width: 100%;
-}
-
-.profile-modal-content,
-.create-modal-content,
-.submit-modal-content,
-.generate-modal-content  {
     height: 1000px;
 }
+
 
 .profile-modal-content > .bg-img,
 .create-modal-content > .bg-img,
@@ -130,7 +137,13 @@
     .profile-modal-content,
     .create-modal-content,
     .submit-modal-content,
-    .generate-modal-content {
+    .generate-modal-content,
+    .basic-modal-content,
+    .life-modal-content,
+    .sol1-modal-content,
+    .sol2-modal-content,
+    .sol3-modal-content,
+    .cell-modal-content {
         background-color: #fefefe;
         margin: 0 auto;
         border: 1px solid #888;
@@ -143,6 +156,15 @@
     .submit-modal,
     .generate-modal {
         padding-top: 50px;
+    }
+
+    .basic-modal,
+    .life-modal,
+    .sol1-modal,
+    .sol2-modal,
+    .sol3-modal,
+    .cell-modal {
+        padding-top: 100px;
     }
 
     .profile-modal-content {
@@ -159,6 +181,15 @@
     
     .generate-modal-content {
         height: 650px;
+    }
+
+    .basic-modal-content,
+    .life-modal-content,
+    .sol1-modal-content,
+    .sol2-modal-content,
+    .sol3-modal-content,
+    .cell-modal-content {
+        height: 500px;
     }
 
     .profile-modal-content > .bg-img,
@@ -573,47 +604,38 @@
 
 .trainings .training-card:nth-child(1) {
     background-color: #32DAFF;
-    order: 2;
 }
 
 .trainings .training-card:nth-child(2) {
     background-color: #4AF851;
-    order: 3;
 }
 
 .trainings .training-card:nth-child(3) {
     background-color: #FF9040;
-    order: 4;
 }
 
 .trainings .training-card:nth-child(4) {
     background-color: #DF4AF8;
-    order: 5;
 }
 
 .trainings .training-card:nth-child(5) {
     background-color: #325FFF;
-    order: 6;
 }
 
 .trainings .training-card:nth-child(6) {
     background-color: #FFEA32;
-    order: 7;
 }
 
 .trainings .training-card:nth-child(7) {
     background-color: #F46141;
-    order: 8;
 }
 
 .trainings .training-card:nth-child(8) {
     background-color: #34CEBC;
-    order: 9;
 }
 
 .trainings .training-card:nth-child(9) {
     background-color: #40D460;
-    order: 10;
 }
 
 

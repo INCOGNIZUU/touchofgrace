@@ -18,6 +18,31 @@ var generate_modal = document.getElementById("generate-modal");
 var generate_btn = document.getElementById("generate-report");
 var close_generate = document.getElementsByClassName("close")[3];
 
+// Basic Training Modal
+var basic_modal = document.getElementById("basic-modal");
+var basic_btn = document.getElementById("basic-training");
+
+// Life Class Training Modal
+var life_modal = document.getElementById("life-modal");
+var life_btn = document.getElementById("life-training");
+
+// Sol 1 Training Modal
+var sol1_modal = document.getElementById("sol1-modal");
+var sol1_btn = document.getElementById("sol1-training");
+
+// Sol 2 Training Modal
+var sol2_modal = document.getElementById("sol2-modal");
+var sol2_btn = document.getElementById("sol2-training");
+
+// Sol 3 Training Modal
+var sol3_modal = document.getElementById("sol3-modal");
+var sol3_btn = document.getElementById("sol3-training");
+
+// Cell Group Training Modal
+var cell_modal = document.getElementById("cell-modal");
+var cell_btn = document.getElementById("cell-training");
+
+
 
 // Open modal
 profile_btn.onclick = function() {
@@ -31,6 +56,24 @@ submit_btn.onclick = function() {
 }
 generate_btn.onclick = function() {
   generate_modal.style.display = "block";
+}
+basic_btn.onclick = function() {
+  basic_modal.style.display = "block";
+}
+life_btn.onclick = function() {
+  life_modal.style.display = "block";
+}
+sol1_btn.onclick = function() {
+  sol1_modal.style.display = "block";
+}
+sol2_btn.onclick = function() {
+  sol2_modal.style.display = "block";
+}
+sol3_btn.onclick = function() {
+  sol3_modal.style.display = "block";
+}
+cell_btn.onclick = function() {
+  cell_modal.style.display = "block";
 }
 
 // Close the modal with X
@@ -62,6 +105,25 @@ window.onclick = function(event) {
   if (event.target == generate_modal) {
     generate_modal.style.display = "none";
   }
+  if (event.target == basic_modal) {
+    basic_modal.style.display = "none";
+  }
+  if (event.target == life_modal) {
+    life_modal.style.display = "none";
+  }
+  if (event.target == sol1_modal) {
+    sol1_modal.style.display = "none";
+  }
+  if (event.target == sol2_modal) {
+    sol2_modal.style.display = "none";
+  }
+  if (event.target == sol3_modal) {
+    sol3_modal.style.display = "none";
+  }
+  if (event.target == cell_modal) {
+    cell_modal.style.display = "none";
+  }
+
 }
 
 
