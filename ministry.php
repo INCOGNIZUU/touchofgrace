@@ -35,6 +35,8 @@
         </div>
         <!-- Pastor Modal End -->
 
+
+
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>

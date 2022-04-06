@@ -37,6 +37,7 @@
 /* Ministry Content */
 .ministry .ministry-content {
     margin-top: -100px;
+    margin-bottom: 100px;
 }
 
 .ministry .ministry-content > .ministry-profile {
@@ -44,9 +45,10 @@
     padding: 20px;
     font-family: metropolis;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
+
 }
 
 .ministry .ministry-content > .ministry-profile:hover {
