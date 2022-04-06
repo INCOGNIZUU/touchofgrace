@@ -39,7 +39,7 @@ var sol3_modal = document.getElementById("sol3-modal");
 var sol3_btn = document.getElementById("sol3-training");
 
 // Cell Group Training Modal
-var cell_modal = document.getElementById("cell-modal");
+var cell_modal = document.getElementById("cell-training-modal");
 var cell_btn = document.getElementById("cell-training");
 
 

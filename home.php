@@ -987,8 +987,8 @@
     <!-- Sol 3 Training Modal End -->
 
     <!-- Cell Group Training Modal -->
-    <div class="cell-modal" id="cell-modal">
-        <div class="cell-modal-content" id="cell-modal-content">
+    <div class="cell-training-modal" id="cell-training-modal">
+        <div class="cell-training-content" id="cell-training-content">
             <span class="close">&times;</span>
             <div class="bg-img"></div>
             <h1>Cell Group</h1>

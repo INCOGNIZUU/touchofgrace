@@ -25,7 +25,7 @@
 .sol1-modal,
 .sol2-modal,
 .sol3-modal,
-.cell-modal {
+.cell-training-modal {
    display: none;
    position: fixed;
    z-index: 6;
@@ -47,7 +47,7 @@
 .sol1-modal-content,
 .sol2-modal-content,
 .sol3-modal-content,
-.cell-modal-content {
+.cell-training-content {
     background-color: #fefefe;
     margin: 0 auto;
     width: 100%;
@@ -143,7 +143,7 @@
     .sol1-modal-content,
     .sol2-modal-content,
     .sol3-modal-content,
-    .cell-modal-content {
+    .cell-training-content {
         background-color: #fefefe;
         margin: 0 auto;
         border: 1px solid #888;
@@ -163,7 +163,7 @@
     .sol1-modal,
     .sol2-modal,
     .sol3-modal,
-    .cell-modal {
+    .cell-training-modal {
         padding-top: 100px;
     }
 
@@ -188,7 +188,7 @@
     .sol1-modal-content,
     .sol2-modal-content,
     .sol3-modal-content,
-    .cell-modal-content {
+    .cell-training-content {
         height: 500px;
     }
 
