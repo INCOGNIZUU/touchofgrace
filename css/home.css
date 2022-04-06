@@ -145,6 +145,10 @@
         padding-top: 50px;
     }
 
+    .profile-modal-content {
+        height: 750px;
+    }
+
     .create-modal-content {
         height: 784px;
     }
