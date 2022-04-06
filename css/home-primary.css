@@ -64,11 +64,16 @@
     width: 100%;
 }
 
-.add-modal-content,
+
 .cell-modal-content,
 .ministry-modal-content {
-    height: 100%;
+    height: 900px;
 }
+
+.add-modal-content {
+    height: 1050px;
+}
+
 
 .profile-modal-content > .bg-img,
 .add-modal-content > .bg-img,
@@ -123,6 +128,7 @@
 
 
 
+
 .add-modal-content form label,
 .cell-modal-content form label,
 .ministry-modal-content form label{
@@ -159,18 +165,6 @@
     .cell-modal,
     .ministry-modal {
         padding-top: 50px;
-    }
-
-    .add-modal-content {
-        height: 1050px;
-    }
-
-    .cell-modal-content {
-        height: 900px;
-    }
-    
-    .ministry-modal-content {
-        height: 900px;
     }
 
     .cell-modal-content > .bg-img,

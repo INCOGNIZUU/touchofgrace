@@ -41,10 +41,11 @@
     width: 100%;
 }
 
+.profile-modal-content,
 .create-modal-content,
 .submit-modal-content,
 .generate-modal-content  {
-    height: 100%;
+    height: 1000px;
 }
 
 .profile-modal-content > .bg-img,
@@ -558,6 +559,13 @@
     }
 }
 
+.trainings .training-card {
+    cursor: pointer;
+}
+
+.trainings .training-card:hover {
+    opacity: .8;
+}
 
 .trainings .training-card:nth-child(1) {
     background-color: #32DAFF;

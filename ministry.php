@@ -12,7 +12,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4" id="ministry-btn">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Academy</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
@@ -23,7 +23,7 @@
             <div class="ministry-modal-content" id="ministry-modal-content">
                 <img src="images/profile/Profile Picture.png" alt="Profile Image">
                 <div class="profile-data">
-                    <h1>John Doe</h1>
+                    <h1>Academy</h1>
                     <div>
                         <p>Age: 22</p>
                         <p>Male</p>
@@ -38,7 +38,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Music</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
@@ -47,7 +47,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Dance</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
@@ -56,7 +56,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Secretariat</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
@@ -65,7 +65,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Finance</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
@@ -74,7 +74,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Ushering</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
@@ -83,7 +83,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Services & Support</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
@@ -92,7 +92,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Media</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
@@ -101,13 +101,65 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>John Does</h1>
+                <h1>Transportation</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
         </div>
 
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>Decoration</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
 
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>Touchdown</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>Touch Kids</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>Technical</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>Intercessory</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/profile/profile-circle.png" alt="">
+            <div>
+                <h1>Food Services</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
 
     </section>
 
