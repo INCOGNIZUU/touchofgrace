@@ -145,6 +145,7 @@
     border-spacing: 0;
     overflow-y: auto;
     height: 500px;
+    margin-top: 50px;
 }
 
 .ministry .ministry-modal-content .profile-data {
@@ -157,6 +158,7 @@
 }
 
 .ministry .ministry-modal-content .profile-data button {
+    cursor: pointer;
     font-family: metropolis;
     font-size: 16px;
     border: 0;
@@ -187,14 +189,17 @@
     padding: 10px;
     border: 0;
     margin: 10px 0 10px 30px;
+    position: absolute;
+    display: block;
+    float: left;
 }
 
 
 
 
 @media (min-width: 769px) {
-    .ministry .ministry .ministry-modal{
-        padding-top: 100px;
+    .ministry .ministry-modal{
+        padding-top: 150px;
     }
     
     .ministry .ministry-modal-content {
