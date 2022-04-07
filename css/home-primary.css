@@ -65,8 +65,8 @@
 }
 
 
-.cell-modal-content,
-.ministry-modal-content {
+.home-primary .cell-modal-content,
+.home-primary .ministry-modal-content {
     height: 900px;
 }
 

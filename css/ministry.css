@@ -83,9 +83,8 @@
 }
 
 
-/* Pastor Modal */
+/* Ministry Modal */
 .ministry .ministry-modal{
-    padding-top: 250px;
     display: none;
     position: fixed;
     z-index: 6;
@@ -102,26 +101,20 @@
     text-align: center;
     background-color: #fefefe;
     margin: 0 auto;
-    width: 80%;
     padding: 30px 20px;
-    height: 236px;
-    max-width: 359px;
-    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 769px;
 }
 
 .ministry .ministry-modal-content img {
     width: 161px;
     height: 161px;
-    float: left;
     position: relative; 
-    top: 0;
-    left: 0;
-    margin-top: -80px;
-    margin-left: -20px;
 }
 
 .ministry .ministry-modal-content .profile-data > p {
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .ministry .ministry-modal-content .profile-data h1 {
@@ -131,3 +124,111 @@
     font-size: 24px;
 }
 
+.ministry .ministry-modal-content 
+
+.ministry .ministry-modal-content h1  {    
+    text-align: center;
+    font-family: metropolis-bold;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.ministry .ministry-modal-content > div:nth-child(1) {
+    display: flex;
+    width: 90%;
+    margin:  0 auto;
+}
+
+.ministry .ministry-modal-content > div:nth-child(3)  {
+    position: relative;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow-y: auto;
+    height: 500px;
+}
+
+.ministry .ministry-modal-content .profile-data {
+    width: 100%;
+}
+
+.ministry .ministry-modal-content .profile-data p {
+    font-family: metropolis;
+    font-size: 20px;
+}
+
+.ministry .ministry-modal-content .profile-data button {
+    font-family: metropolis;
+    font-size: 16px;
+    border: 0;
+    padding: 10px 40px;
+    background-color: #A3D465;
+    border-radius: 20px;
+}
+
+.ministry .ministry-modal-content table {
+    font-family: metropolis;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ministry .ministry-modal-content table th {
+    text-align: center;
+    font-family: metropolis-bold;
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    padding: 5px 10px;
+}
+
+.ministry .ministry-modal-content select {
+    cursor: pointer;
+    font-family: metropolis-bold;
+    font-family: 20px;
+    padding: 10px;
+    border: 0;
+    margin: 10px 0 10px 30px;
+}
+
+
+
+
+@media (min-width: 769px) {
+    .ministry .ministry .ministry-modal{
+        padding-top: 100px;
+    }
+    
+    .ministry .ministry-modal-content {
+        border-radius: 20px;
+        height: 600px;
+    }
+    
+    .ministry .ministry-modal-content div:nth-child(3){
+        height: 300px;
+    }
+}
+
+
+.ministry .ministry-modal-content table tr td:nth-child(odd) {
+    color: #000;
+    background-color: #EEE;
+}
+
+.ministry .ministry-modal-content table tr td:nth-child(even) {
+    color: #000;
+    background-color: #EEE;
+}
+
+.ministry .ministry-modal-content table tr td:nth-child(1) {
+    text-transform: uppercase;
+    background-color: #EEE;
+}
+
+.ministry .ministry-modal-content table tr:nth-child(even) {
+    opacity: .6;
+}
+
+.ministry .ministry-modal-content table th {
+    background-color: #EEEEEE;
+    color: #000;
+    opacity: 1;
+}
