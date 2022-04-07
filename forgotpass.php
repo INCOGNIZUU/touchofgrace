@@ -28,7 +28,7 @@
             <form class="login" action="submit">
                 <input type="text" placeholder="Please enter your email">
                 <button class="forgotbot" type="submit">Send</button>
-                <label>We will be sending email a password reset link to your email</label>
+                <label>We will be sending a reset link to your email address.</label>
 
             </form>
         </div>

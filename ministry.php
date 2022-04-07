@@ -103,7 +103,7 @@
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">
             <div>
-                <h1>Transportation</h1>
+                <h1>Transport</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
