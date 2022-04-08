@@ -1,3 +1,4 @@
+
 .primary {
     background-color: #3DBD96;
     overflow: hidden;
@@ -137,6 +138,24 @@
 
 
 /* Primary Modal */
+
+.close-prim {
+    color: 000;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close-prim:hover,
+.close-prim:focus {
+    color: #EEE;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 .primary-modal{
     display: none;
     position: fixed;
@@ -178,13 +197,13 @@
     font-size: 24px;
 }
 
-.primary-modal-content > div:nth-child(1) {
+.primary-modal-content > div:nth-child(2) {
     display: flex;
     width: 90%;
     margin:  0 auto;
 }
 
-.primary-modal-content > div:nth-child(2)  {
+.primary-modal-content > div:nth-child(3)  {
     position: relative;
     border-collapse: collapse;
     border-spacing: 0;
@@ -256,7 +275,7 @@
         height: 600px;
     }
     
-    .primary-modal-content > div:nth-child(2)  {
+    .primary-modal-content > div:nth-child(3)  {
         height: 350px;
     }
 }

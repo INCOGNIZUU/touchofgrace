@@ -21,11 +21,12 @@
         <!-- Ministry Academy Modal -->
         <div class="ministry-modal" id="ministry-modal">
             <div class="ministry-modal-content" id="ministry-modal-content">
+                <span class="close-min">&times;</span>
                 <div>
                     <img src="images/profile/Profile Picture.png" alt="Profile Image">
                     <div class="profile-data">
                         <h1>Academy</h1>
-                        <p>Ministry Head</p>
+                        <p>Ministry Head Name</p>
                         <button>Edit</button>
                     </div>
                 </div>

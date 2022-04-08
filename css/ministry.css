@@ -84,6 +84,22 @@
 
 
 /* Ministry Modal */
+.close-min {
+    color: 000;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close-min:hover,
+.close-min:focus {
+    color: #EEE;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .ministry .ministry-modal {
     display: none;
     position: fixed;
@@ -131,13 +147,13 @@
     padding: 20px;
 }
 
-.ministry .ministry-modal-content > div:nth-child(1) {
+.ministry .ministry-modal-content > div:nth-child(2) {
     display: flex;
     width: 90%;
     margin:  0 auto;
 }
 
-.ministry .ministry-modal-content > div:nth-child(3)  {
+.ministry .ministry-modal-content > div:nth-child(4)  {
     position: relative;
     border-collapse: collapse;
     border-spacing: 0;
@@ -212,7 +228,7 @@
         height: 600px;
     }
     
-    .ministry .ministry-modal-content div:nth-child(3){
+    .ministry .ministry-modal-content div:nth-child(4){
         height: 300px;
     }
 }

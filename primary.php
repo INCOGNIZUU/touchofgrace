@@ -29,8 +29,9 @@
         <!-- Primary Modal -->
         <div class="primary-modal" id="primary-modal">
             <div class="primary-modal-content" id="primary-modal-content">
-                <!-- <span class="close-train">&times;</span> -->
+                <span class="close-prim">&times;</span>
                 <div>
+
                     <img src="images/profile/Profile Picture.png" alt="Profile Image">
                     <div class="profile-data">
                         <h1>John Doe</h1>
