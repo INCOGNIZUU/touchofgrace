@@ -1314,7 +1314,7 @@
                     <tr>
                         <th>Name</th>
                         <th>Age</th>
-                        <th>Date Started</th>
+                        <th>Date</th>
                         <th>Contact Number</th>
                     </tr>
                     <tr>
@@ -1460,130 +1460,69 @@
             <div>
                 <table>
                     <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Date Started</th>
-                        <th>Contact Number</th>
+                        <th>Couple</th>
+                        <th>Date</th>
+                        <th>Venue</th>
                     </tr>
                     <tr>
-                        <td>John Doi</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                     <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
+                        <td>John Doi & Jonnna Doe</td>
                         <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
+                        <td>Lorem Ipsum</td>
                     </tr>
                 </table>
             </div>

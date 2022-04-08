@@ -2,8 +2,8 @@
 <?php include 'inc/navbar.php'; ?>
 
 <section class="home-primary">
-    <div class="bg-img">
-    </div>
+    <!-- <div class="bg-img">
+    </div> -->
 
     <!-- Profile -->
     <section class="profile" id="profile">
