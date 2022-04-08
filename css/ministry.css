@@ -149,6 +149,7 @@
 }
 
 .ministry .ministry-modal-content .profile-data {
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -182,7 +183,7 @@
     padding: 5px 10px;
 }
 
-.ministry .ministry-modal-content select {
+.ministry .ministry-modal-content > select {
     cursor: pointer;
     font-family: metropolis-bold;
     font-family: 20px;
@@ -193,6 +194,14 @@
     display: block;
     float: left;
 }
+
+
+.ministry .ministry-modal-content .profile-data div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -215,17 +224,17 @@
 
 .ministry .ministry-modal-content table tr td:nth-child(odd) {
     color: #000;
-    background-color: #EEE;
+    background-color: #A3D465;
 }
 
 .ministry .ministry-modal-content table tr td:nth-child(even) {
     color: #000;
-    background-color: #EEE;
+    background-color: #7eaf3e;
 }
 
 .ministry .ministry-modal-content table tr td:nth-child(1) {
     text-transform: uppercase;
-    background-color: #EEE;
+    background-color: #9abf69;
 }
 
 .ministry .ministry-modal-content table tr:nth-child(even) {
@@ -233,7 +242,7 @@
 }
 
 .ministry .ministry-modal-content table th {
-    background-color: #EEEEEE;
+    background-color: #EEE;
     color: #000;
     opacity: 1;
 }

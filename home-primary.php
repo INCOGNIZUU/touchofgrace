@@ -6,7 +6,7 @@
     </div> -->
 
     <!-- Profile -->
-    <!-- <section class="profile" id="profile">
+    <section class="profile" id="profile">
         <img src="images/profile/Profile Picture.png" alt="Profile Image">
         <div class="profile-data">
             <h1>John Doe</h1>
@@ -17,51 +17,51 @@
             </div>
             <p>Address: Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             <button id="edit-profile">Edit Profile</button>
-        </div> -->
-    <!-- Edit Profile Modal -->
-    <!-- <div class="profile-modal" id="profile-modal">
-        <div class="profile-modal-content" id="profile-modal-content">
-            <span class="close">&times;</span>
-            <form action="submit">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="email" placeholder="Email">
-                <input type="number" placeholder="Age">
-                <div>
-                    <label for="male">Male</label>
-                    <input type="radio" name="gender" id="male" checked>
-                    <label for="female">Female</label>
-                    <input type="radio" name="gender" id="female">
-                </div>
-                <div>
-                    <label for="birthday">Birthday:</label>
-                    <input type="date" id="birthday" name="birthday">
-                </div>
-                <input type="tel" placeholder="Contact Number">
-                <input type="text" placeholder="Address">
-                <label>Marital Status:</label>
-                <select name="status" id="status">
-                    <option value="single">Single</option>
-                    <option value="married">Married</option>
-                    <option value="widowed">Widowed</option>
-                    <option value="divorced">Divorced</option>
-                    <option value="seperated">Seperated</option>
-                </select>
-
-                <div class="work-school">
-                    <input type="text" placeholder="Work Experience">
-                    <label for="start">Start</label>
-                    <input type="date">
-                    <label for="end">End</label>
-                    <input type="date">
-
-                </div>
-                <button id="cancel-edit-profile">Cancel</button>
-                <input type="submit">
-            </form>
         </div>
-    </div>
-</section> -->
+        <!-- Edit Profile Modal -->
+        <div class="profile-modal" id="profile-modal">
+            <div class="profile-modal-content" id="profile-modal-content">
+                <span class="close">&times;</span>
+                <form action="submit">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Email">
+                    <input type="number" placeholder="Age">
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" checked>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female">
+                    </div>
+                    <div>
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                    <input type="tel" placeholder="Contact Number">
+                    <input type="text" placeholder="Address">
+                    <label>Marital Status:</label>
+                    <select name="status" id="status">
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="widowed">Widowed</option>
+                        <option value="divorced">Divorced</option>
+                        <option value="seperated">Seperated</option>
+                    </select>
+
+                    <div class="work-school">
+                        <input type="text" placeholder="Work Experience">
+                        <label for="start">Start</label>
+                        <input type="date">
+                        <label for="end">End</label>
+                        <input type="date">
+
+                    </div>
+                    <button id="cancel-edit-profile">Cancel</button>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- Functions -->
     <section class="functions" id="functions">
