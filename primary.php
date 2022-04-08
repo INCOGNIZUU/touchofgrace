@@ -17,6 +17,7 @@
 
     <section class="primary-content">
         <div class="primary-profile col-sm-12 col-md-6 col-lg-4" id="primary-btn">
+
             <img src="images/profile/profile-circle.png" alt="">
             <div>
                 <h1>John Does</h1>
@@ -25,12 +26,17 @@
             </div>
         </div>
 
-        <!-- Pastor Modal -->
+        <!-- Primary Modal -->
         <div class="primary-modal" id="primary-modal">
             <div class="primary-modal-content" id="primary-modal-content">
+                <!-- <span class="close-train">&times;</span> -->
                 <div>
                     <img src="images/profile/Profile Picture.png" alt="Profile Image">
-                    <h1>John Doe</h1>
+                    <div class="profile-data">
+                        <h1>John Doe</h1>
+                        <p>Primary, Ministry of Music, etc.</p>
+                        <button>Edit</button>
+                    </div>
                 </div>
                 <div class="profile-table">
                     <table>
@@ -164,7 +170,7 @@
                 </div>
             </div>
         </div>
-        <!-- Pastor Modal End -->
+        <!-- Primary Modal End -->
 
         <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
             <img src="images/profile/profile-circle.png" alt="">

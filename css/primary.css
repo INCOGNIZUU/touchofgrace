@@ -166,11 +166,16 @@
     position: relative; 
 }
 
-.primary-modal-content h1 {
-    text-align: center;
-    font-family: metropolis-bold;
-    font-size: 40px;
-    padding: 20px;
+.primary-modal-content .profile-data > p {
+    margin-bottom: 20px;
+}
+
+
+.primary-modal-content .profile-data h1 {
+    font-family: metropolis-md;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
 }
 
 .primary-modal-content > div:nth-child(1) {
@@ -184,12 +189,27 @@
     border-collapse: collapse;
     border-spacing: 0;
     overflow-y: auto;
-    height: 600px;
+    height: 500px;
 }
 
-.primary-modal-content h1 {
+.primary-modal-content .profile-data {
     margin-top: 20px;
     width: 100%;
+}
+
+.primary-modal-content .profile-data p {
+    font-family: metropolis;
+    font-size: 20px;
+}
+
+.primary-modal-content .profile-data button {
+    cursor: pointer;
+    font-family: metropolis;
+    font-size: 16px;
+    border: 0;
+    padding: 10px 40px;
+    background-color: #3DBD96;
+    border-radius: 20px;
 }
 
 .primary-modal-content table {
@@ -219,6 +239,12 @@
     float: left;
 }
 
+.primary-modal-content .profile-data div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (min-width: 769px) {
     .primary-modal{
@@ -230,7 +256,7 @@
         height: 600px;
     }
     
-    .primary-modal-content div:nth-child(2){
+    .primary-modal-content > div:nth-child(2)  {
         height: 350px;
     }
 }
