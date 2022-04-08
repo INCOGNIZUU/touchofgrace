@@ -28,15 +28,139 @@
         <!-- Pastor Modal -->
         <div class="primary-modal" id="primary-modal">
             <div class="primary-modal-content" id="primary-modal-content">
-                <img src="images/profile/Profile Picture.png" alt="Profile Image">
-                <div class="profile-data">
+                <div>
+                    <img src="images/profile/Profile Picture.png" alt="Profile Image">
                     <h1>John Doe</h1>
-                    <div>
-                        <p>Age: 22</p>
-                        <p>Male</p>
-                        <p>09123456789</p>
-                    </div>
-                    <p>Address: Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="profile-table">
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Date Started</th>
+                            <th>Contact Number</th>
+                        </tr>
+                        <tr>
+                            <td>John Doi</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
