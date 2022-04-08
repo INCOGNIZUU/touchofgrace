@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <!-- Pastor Modal -->
+        <!-- Ministry Academy Modal -->
         <div class="ministry-modal" id="ministry-modal">
             <div class="ministry-modal-content" id="ministry-modal-content">
                 <div>
@@ -169,8 +169,7 @@
                 </div>
             </div>
         </div>
-        <!-- Pastor Modal End -->
-
+        <!-- Ministry Academy Modal End -->
 
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">

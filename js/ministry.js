@@ -1,4 +1,4 @@
-// Pastor Modal Data
+// Academy Modal Data
 var ministry_modal = document.getElementById("ministry-modal");
 var ministry_btn = document.getElementById("ministry-btn");
 
