@@ -240,6 +240,13 @@
                         </div>
                     </div>
 
+                    <select name="report-type" id="report-type">
+                        <option value="" disabled selected>Report type</option>
+                        <option value="attendance">Attendance</option>
+                        <option value="cell">Cell</option>
+                        <option value="ministry">Ministry</option>
+                    </select>
+
                     <div class="filter-gender">
                         <div class="active">All</div>
                         <div>Male</div>

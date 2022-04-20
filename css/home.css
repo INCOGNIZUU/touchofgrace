@@ -222,7 +222,7 @@
     }
     
     .generate-modal-content {
-        height: 650px;
+        height: 720px;
     }
 
     .basic-modal-content,
@@ -339,6 +339,8 @@
     border-bottom: 1px solid #48BEFF;
     padding: 10px 0;
 }
+
+
 
 
 .profile-modal-content form input::placeholder {
@@ -536,6 +538,15 @@
 
 .generate-modal-content form {
     color: #A3D465;
+}
+
+.generate-modal-content form input,
+.generate-modal-content form select {
+    font-family: metropolis;
+    font-size: 13px;
+    color: #A3D465;
+    border: 0;
+    border-bottom: 1px solid #A3D465;
 }
 
 .generate-modal-content form > input[type="submit"] {

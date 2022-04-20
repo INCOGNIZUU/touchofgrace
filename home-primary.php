@@ -195,11 +195,6 @@
 
                     <input type="number" placeholder="Age">
 
-                    <div class="date">
-                        <label for="date">Date Started:</label>
-                        <input type="date" id="date">
-                    </div>
-
                     <input type="tel" placeholder="Contact">
 
 
