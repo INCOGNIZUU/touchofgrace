@@ -57,6 +57,7 @@
 /* Pastor Content */
 .pastor-content {
     margin-top: -20px;
+    padding: 0 40px;
 }
 .pastor-content > .pastor-profile {
     text-align: start;

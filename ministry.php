@@ -10,7 +10,7 @@
 
     <section class="ministry-content">
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4" id="ministry-btn">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/academics.png" alt="">
             <div>
                 <h1>Academy</h1>
                 <h2>Head of Ministry</h2>
@@ -174,7 +174,7 @@
 
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/music.png" alt="">
             <div>
                 <h1>Music</h1>
                 <h2>Head of Ministry</h2>
@@ -183,7 +183,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/dance.png" alt="">
             <div>
                 <h1>Dance</h1>
                 <h2>Head of Ministry</h2>
@@ -192,7 +192,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/secretariat.png" alt="">
             <div>
                 <h1>Secretariat</h1>
                 <h2>Head of Ministry</h2>
@@ -201,7 +201,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/finance.png" alt="">
             <div>
                 <h1>Finance</h1>
                 <h2>Head of Ministry</h2>
@@ -210,7 +210,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/usher.png" alt="">
             <div>
                 <h1>Ushering</h1>
                 <h2>Head of Ministry</h2>
@@ -219,7 +219,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/service.png" alt="">
             <div>
                 <h1>Services & Support</h1>
                 <h2>Head of Ministry</h2>
@@ -228,7 +228,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/media.png" alt="">
             <div>
                 <h1>Media</h1>
                 <h2>Head of Ministry</h2>
@@ -237,7 +237,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/transport.png" alt="">
             <div>
                 <h1>Transport</h1>
                 <h2>Head of Ministry</h2>
@@ -246,7 +246,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/decoration.png" alt="">
             <div>
                 <h1>Decoration</h1>
                 <h2>Head of Ministry</h2>
@@ -255,7 +255,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/touchdown.png" alt="">
             <div>
                 <h1>Touchdown</h1>
                 <h2>Head of Ministry</h2>
@@ -264,7 +264,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/touchkids.png" alt="">
             <div>
                 <h1>Touch Kids</h1>
                 <h2>Head of Ministry</h2>
@@ -272,8 +272,8 @@
             </div>
         </div>
 
-        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+        <div class=" ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/ministries/Technical.png" alt="">
             <div>
                 <h1>Technical</h1>
                 <h2>Head of Ministry</h2>
@@ -282,7 +282,7 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/intercession.png" alt="">
             <div>
                 <h1>Intercessory</h1>
                 <h2>Head of Ministry</h2>
@@ -291,13 +291,23 @@
         </div>
 
         <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
+            <img src="images/ministries/food.png" alt="">
             <div>
                 <h1>Food Services</h1>
                 <h2>Head of Ministry</h2>
                 <p>Lorem Ipsum</p>
             </div>
         </div>
+
+        <div class="ministry-profile col-sm-12 col-md-6 col-lg-4">
+            <img src="images/ministries/none.png" alt="">
+            <div>
+                <h1>None</h1>
+                <h2>Head of Ministry</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+
 
     </section>
 

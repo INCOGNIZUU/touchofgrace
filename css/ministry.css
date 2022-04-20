@@ -30,7 +30,6 @@
     .ministry-banner > h1 {
         top: 100px;
     }
-
 }
 
 
@@ -38,6 +37,7 @@
 .ministry .ministry-content {
     margin-top: -100px;
     margin-bottom: 100px;
+    padding: 0 40px;
 }
 
 .ministry .ministry-content > .ministry-profile {
@@ -63,7 +63,7 @@
     font-family: metropolis-md;
     text-transform: uppercase;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .ministry .ministry-profile h2 {

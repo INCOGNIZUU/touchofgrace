@@ -43,7 +43,9 @@
 .cell-training-modal,
 .baptism-modal,
 .weddings-modal,
-.cd-modal{
+.cd-modal,
+.advance-modal,
+.specialized-modal{
    display: none;
    position: fixed;
    z-index: 6;
@@ -68,7 +70,9 @@
 .cell-training-content,
 .baptism-modal-content,
 .weddings-modal-content,
-.cd-modal-content {
+.cd-modal-content,
+.advance-modal-content,
+.specialized-modal-content {
     background-color: #fefefe;
     margin: 0 auto;
     width: 100%;
@@ -174,7 +178,9 @@
     .cell-training-content,
     .baptism-modal-content,
     .weddings-modal-content,
-    .cd-modal-content{
+    .cd-modal-content,
+    .advance-modal-content,
+    .specialized-modal-content{
         background-color: #fefefe;
         margin: 0 auto;
         border: 1px solid #888;
@@ -197,7 +203,9 @@
     .cell-training-modal,
     .baptism-modal,
     .weddings-modal,
-    .cd-modal {
+    .cd-modal,
+    .advance-modal,
+    .specialized-modal {
         padding-top: 100px;
     }
 
@@ -225,7 +233,9 @@
     .cell-training-content,
     .baptism-modal-content,
     .weddings-modal-content,
-    .cd-modal-content {
+    .cd-modal-content,
+    .advance-modal-content,
+    .specialized-modal-content {
         height: 500px;
     }
 
@@ -240,6 +250,9 @@
 
 
 /* Profile */
+.home {
+    background-color: #39A7AA;
+}
 
 .home .profile {
     font-family: metropolis;
@@ -297,6 +310,11 @@
 @media (min-width: 769px) {
     .home .profile {
         width: 95%;
+        text-align: left;
+    }
+
+    .home .profile .profile-data {
+        margin-left: 180px;
     }
 }
 
@@ -600,12 +618,13 @@
 }
 
 .functions button {
+    font-size: 16px;
     margin: 20px;
     border-radius: 20px;
     background-color: #48BEFF;
     color: #fff;
     border: 0;
-    padding: 8px 20px;
+    padding: 10px 25px;
     box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
     -webkit-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
     -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
@@ -614,7 +633,8 @@
 
 /* Trainings */
 .trainings {
-    margin: 40px 0;
+    padding: 0 40px;
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -636,46 +656,58 @@
     cursor: pointer;
 }
 
+.trainings .training-card img{
+    height: 60px;
+    width: 60px;
+}
+
 .trainings .training-card:hover {
     opacity: .8;
 }
 
 .trainings .training-card:nth-child(1) {
-    background-color: #32DAFF;
+    background-color: #FF3294;
 }
 
 .trainings .training-card:nth-child(2) {
-    background-color: #4AF851;
+    background-color: #32DAFF;
 }
 
 .trainings .training-card:nth-child(3) {
-    background-color: #FF9040;
+    background-color: #4AF851;
 }
 
 .trainings .training-card:nth-child(4) {
-    background-color: #DF4AF8;
+    background-color: #FF9040;
 }
 
 .trainings .training-card:nth-child(5) {
-    background-color: #325FFF;
+    background-color: #DF4AF8;
 }
 
 .trainings .training-card:nth-child(6) {
-    background-color: #FFEA32;
+    background-color: #325FFF;
 }
 
 .trainings .training-card:nth-child(7) {
-    background-color: #F46141;
+    background-color: #FFEA32;
 }
 
 .trainings .training-card:nth-child(8) {
-    background-color: #34CEBC;
+    background-color: #F46141;
 }
 
 .trainings .training-card:nth-child(9) {
-    background-color: #40D460;
+    background-color: #FF3232;
 }
 
+.trainings .training-card:nth-child(10) {
+    background-color: #34CEBC;
+}
+
+.trainings .training-card:nth-child(11) {
+    background-color: #40D460;
+}
 
 
 .training-card {
@@ -710,7 +742,7 @@
 }
 
 .trainings {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -734,40 +766,29 @@
 .cell-training-content h1,
 .baptism-modal-content h1,
 .weddings-modal-content h1,
-.cd-modal-content h1  {    
+.cd-modal-content h1,
+.advance-modal-content h1,
+.specialized-modal-content h1  {    
     text-align: center;
     font-family: metropolis-bold;
     font-size: 40px;
     padding: 20px;
 }
 
-.basic-modal-content h1 {    
-    color: #32DAFF;
+.basic-modal-content h1,
+.life-modal-content h1,
+.sol1-modal-content h1,
+.sol2-modal-content h1,
+.sol3-modal-content h1,
+.cell-training-content h1,
+.baptism-modal-content h1,
+.weddings-modal-content h1,
+.cd-modal-content h1,
+.advance-modal-content h1,
+.specialized-modal-content h1 {    
+    color: #000;
 }
-.life-modal-content h1 {
-    color: #4AF851;
-}
-.sol1-modal-content h1 {
-    color: #FF9040;
-}
-.sol2-modal-content h1 {
-    color: #DF4AF8;
-}
-.sol3-modal-content h1 {
-    color: #325FFF;
-}
-.cell-training-content h1 {
-    color: #FFEA32;
-}
-.baptism-modal-content h1 {
-    color: #F46141;
-}
-.weddings-modal-content h1 {
-    color: #34CEBC;
-}
-.cd-modal-content h1 {
-    color: #40D460;
-}
+
 
 .basic-modal-content table,
 .life-modal-content table,
@@ -777,7 +798,9 @@
 .cell-training-content table,
 .baptism-modal-content table,
 .weddings-modal-content table,
-.cd-modal-content table {
+.cd-modal-content table,
+.advance-modal-content table,
+.specialized-modal-content table {
     font-family: metropolis;
     text-align: center;
     width: 90%;
@@ -792,7 +815,9 @@
 .cell-training-content table th,
 .baptism-modal-content table th,
 .weddings-modal-content table th,
-.cd-modal-content table th {
+.cd-modal-content table th,
+.advance-modal-content table th,
+.specialized-modal-content table th {
 
     text-align: center;
     font-family: metropolis-bold;
@@ -809,7 +834,9 @@
 .cell-training-content select,
 .baptism-modal-content select,
 .weddings-modal-content select,
-.cd-modal-content select {
+.cd-modal-content select,
+.advance-modal-content select,
+.specialized-modal-content select {
     cursor: pointer;
     font-family: metropolis-bold;
     font-family: 20px;
@@ -818,7 +845,7 @@
     margin: 10px 0 10px 30px;
 }
 
-.basic-modal-content select {
+/* .basic-modal-content select {
     color: #32DAFF;
 }
 .life-modal-content select {
@@ -844,7 +871,7 @@
 }
 .cd-modal-content select {
     color: #40D460;
-}
+} */
 
 .basic-modal-content div,
 .life-modal-content div,
@@ -854,7 +881,9 @@
 .cell-training-content div,
 .baptism-modal-content div,
 .weddings-modal-content div,
-.cd-modal-content div  {
+.cd-modal-content div,
+.advance-modal-content div,
+.specialized-modal-content div  {
     position: relative;
     border-collapse: collapse;
     border-spacing: 0;
@@ -871,7 +900,9 @@
     .cell-training-content div,
     .baptism-modal-content div,
     .weddings-modal-content div,
-    .cd-modal-content div {
+    .cd-modal-content div,
+    .advance-modal-content div,
+    .specialized-modal-content div {
         position: relative;
         border-collapse: collapse;
         border-spacing: 0;
@@ -881,7 +912,7 @@
 }
 
 
-.basic-modal-content table tr td:nth-child(odd) {
+/* .basic-modal-content table tr td:nth-child(odd) {
     color: #EEEEEE;
     background-color: #32DAFF;
 }
@@ -904,11 +935,11 @@
     background-color: #EEEEEE;
     color: #32DAFF;
     opacity: 1;
-}
+} */
 
 
 
-.life-modal-content table tr td:nth-child(odd) {
+/* .life-modal-content table tr td:nth-child(odd) {
     background-color: #4AF851;
 }
 
@@ -929,10 +960,10 @@
     background-color: #EEEEEE;
     color: #4AF851;
     opacity: 1;
-}
+} */
 
 
-.sol1-modal-content table tr td:nth-child(odd) {
+/* .sol1-modal-content table tr td:nth-child(odd) {
     color: #EEEEEE;
     background-color: #FF9040;
 }
@@ -955,10 +986,10 @@
     background-color: #EEEEEE;
     color: #FF9040;
     opacity: 1;
-}
+} */
 
 
-.sol2-modal-content table tr td:nth-child(odd) {
+/* .sol2-modal-content table tr td:nth-child(odd) {
     color: #EEEEEE;
     background-color: #DF4AF8;
 }
@@ -981,10 +1012,10 @@
     background-color: #EEEEEE;
     color: #DF4AF8;
     opacity: 1;
-}
+} */
 
 
-.sol3-modal-content table tr td:nth-child(odd) {
+/* .sol3-modal-content table tr td:nth-child(odd) {
     color: #EEEEEE;
     background-color: #325FFF;
 }
@@ -1007,10 +1038,10 @@
     background-color: #EEEEEE;
     color: #325FFF;
     opacity: 1;
-}
+} */
 
 
-.cell-training-content table tr td:nth-child(odd) {
+/* .cell-training-content table tr td:nth-child(odd) {
     background-color: #FFEA32;
 }
 
@@ -1031,10 +1062,10 @@
     background-color: #EEEEEE;
     color: #FFEA32;
     opacity: 1;
-}
+} */
 
 
-.baptism-modal-content table tr td:nth-child(odd) {
+/* .baptism-modal-content table tr td:nth-child(odd) {
     color: #EEEEEE;
     background-color: #F46141;
 }
@@ -1057,10 +1088,10 @@
     background-color: #EEEEEE;
     color: #F46141;
     opacity: 1;
-}
+} */
 
 
-.weddings-modal-content table tr td:nth-child(odd) {
+/* .weddings-modal-content table tr td:nth-child(odd) {
     color: #EEEEEE;
     background-color: #34CEBC;
 }
@@ -1083,10 +1114,10 @@
     background-color: #EEEEEE;
     color: #34CEBC;
     opacity: 1;
-}
+} */
 
 
-.cd-modal-content table tr td:nth-child(odd) {
+/* .cd-modal-content table tr td:nth-child(odd) {
     color: #EEEEEE;
     background-color: #40D460;
 }
@@ -1109,4 +1140,4 @@
     background-color: #EEEEEE;
     color: #40D460;
     opacity: 1;
-}
+} */

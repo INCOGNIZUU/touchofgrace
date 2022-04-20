@@ -54,7 +54,7 @@
     font-size: 24px;
     border: 0;
     border-radius: 10px;
-    width: 160px;
+    width: 100px;
     height: 35px;
     margin: 10px;
     box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
@@ -85,7 +85,9 @@
         display: block;
     }
     .primary-filter {
-        margin-top: -100px;
+        margin-top: -180px;
+        margin-left: 50px;
+        justify-content: flex-start;
     
     }
 }
@@ -93,6 +95,7 @@
 /* Primary Content */
 .primary .primary-content {
     margin-bottom: 100px;
+    padding: 0 40px;
 }
 
 .primary-content > .primary-profile {
