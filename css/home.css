@@ -816,6 +816,7 @@
     text-align: center;
     width: 90%;
     margin: 0 auto;
+    border: 1px solid #000;
 }
 
 .basic-modal-content table th,
@@ -835,7 +836,24 @@
     text-transform: uppercase;
     background-color: #EEEEEE;
     padding: 5px 10px;
+    border-bottom: 1px solid #000;
 }
+
+.basic-modal-content table td,
+.life-modal-content table td,
+.sol1-modal-content table td,
+.sol2-modal-content table td,
+.sol3-modal-content table td,
+.cell-training-content table td,
+.baptism-modal-content table td,
+.weddings-modal-content table td,
+.cd-modal-content table td,
+.advance-modal-content table td,
+.specialized-modal-content table td {
+
+    border-right: 1px solid #000;
+}
+
 
 .basic-modal-content select,
 .life-modal-content select,
