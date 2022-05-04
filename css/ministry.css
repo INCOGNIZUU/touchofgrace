@@ -54,9 +54,7 @@
 .ministry .ministry-content > .ministry-profile:hover {
     cursor: pointer;
     border-radius: 20px;
-    box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
-    -webkit-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
-    -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
+    box-shadow: 0 0 15px rgba(0,0,0,0.07);
 }
 
 .ministry .ministry-profile h1 {

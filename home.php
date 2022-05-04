@@ -417,132 +417,136 @@
             </select>
             <div>
                 <table>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Date Started</th>
-                        <th>Contact Number</th>
-                    </tr>
-                    <tr>
-                        <td>John Doi</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>14</td>
-                        <td>4 August 2021</td>
-                        <td>09123456789</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Date Started</th>
+                            <th>Contact Number</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doi</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>14</td>
+                            <td>4 August 2021</td>
+                            <td>09123456789</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>

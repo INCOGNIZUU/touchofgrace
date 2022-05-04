@@ -222,8 +222,6 @@ window.onclick = function(event) {
   if (event.target == cd_modal) {
     cd_modal.style.display = "none";
   }
-
-
 }
 
 

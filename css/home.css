@@ -1,3 +1,27 @@
+
+ .home {
+    background-color: #fff;
+}
+
+.home > .bg-img {
+    width: 100%;
+    height: 315px;
+    background-color: #55cbcd;
+    background-image: url('../images/profile/Vector.png');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 769px) {
+    .home > .bg-img {
+        background-size: 50%;
+    }
+}
+
+
+
+
 /* For All Modals in Home (Level 1) */
 
 .close{
@@ -251,7 +275,7 @@
 
 /* Profile */
 .home {
-    background-color: #39A7AA;
+    background-color: #55cbcd;
 }
 
 .home .profile {
@@ -713,7 +737,7 @@
 }
 
 .trainings .training-card:nth-child(10) {
-    background-color: #34CEBC;
+    background-color: #23a798;
 }
 
 .trainings .training-card:nth-child(11) {
@@ -817,6 +841,12 @@
     width: 90%;
     margin: 0 auto;
     border: 1px solid #000;
+    border-collapse: separate;
+}
+
+.life-modal-content table thead {
+    position: sticky;
+    top: 0;
 }
 
 .basic-modal-content table th,
@@ -830,13 +860,11 @@
 .cd-modal-content table th,
 .advance-modal-content table th,
 .specialized-modal-content table th {
-
     text-align: center;
     font-family: metropolis-bold;
     text-transform: uppercase;
     background-color: #EEEEEE;
     padding: 5px 10px;
-    border-bottom: 1px solid #000;
 }
 
 .basic-modal-content table td,
@@ -851,7 +879,7 @@
 .advance-modal-content table td,
 .specialized-modal-content table td {
 
-    border-right: 1px solid #000;
+    border-right: 1px solid;
 }
 
 
@@ -872,6 +900,14 @@
     padding: 10px;
     border: 0;
     margin: 10px 0 10px 30px;
+}
+
+.life-modal-content table thead {
+    border: 1px solid #000;
+}
+
+.life-modal-content table tbody tr td:last-child {
+    border: 0;
 }
 
 /* .basic-modal-content select {

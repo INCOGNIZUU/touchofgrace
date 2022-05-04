@@ -510,6 +510,7 @@
 /* Table */
 .primary-table {
     overflow: scroll;
+    border: 1px solid #000;
 }
 
 .primary-table table {
@@ -530,18 +531,23 @@
 }
 
 .primary-table td, th {
-    text-align: left;
     padding: 8px;
-    }
+}
 
 .primary-table th {
     font-family: metropolis-bold;
     font-weight: 700;
-    background-color: #EEEEEE;
-    color: #099295;
+    border-bottom: 1px solid #000;
+    text-align: left;
+    /* background-color: #EEEEEE;
+    color: #099295; */
 }
 
-.primary-table tr td:nth-child(odd) {
+.primary-table td {
+    border-right: 1px solid #000;
+}
+
+/* .primary-table tr td:nth-child(odd) {
     color: #EEEEEE;
     background-color: #3CAA89;
 }
@@ -564,4 +570,4 @@
     background-color: #EEEEEE;
     color: #099295;
     opacity: 1;
-}
+} */
