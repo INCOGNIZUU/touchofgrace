@@ -176,53 +176,121 @@ close_cd.onclick = function() {
 
 
 // Close the modal with window touch
-window.onclick = function(event) {
-  if (event.target == profile_modal) {
-    profile_modal.style.display = "none";
-  }
-  if (event.target == create_modal) {
-    create_modal.style.display = "none";
-  }
-  if (event.target == submit_modal) {
-    submit_modal.style.display = "none";
-  }
-  if (event.target == generate_modal) {
-    generate_modal.style.display = "none";
-  }
-  if (event.target == basic_modal) {
-    basic_modal.style.display = "none";
-  }
-  if (event.target == life_modal) {
-    life_modal.style.display = "none";
-  }
-  if (event.target == sol1_modal) {
-    sol1_modal.style.display = "none";
-  }
-  if (event.target == advance_modal) {
-    advance_modal.style.display = "none";
-  }
-  if (event.target == sol2_modal) {
-    sol2_modal.style.display = "none";
-  }
-  if (event.target == specialized_modal) {
-    specialized_modal.style.display = "none";
-  }
-  if (event.target == sol3_modal) {
-    sol3_modal.style.display = "none";
-  }
-  if (event.target == cell_modal) {
-    cell_modal.style.display = "none";
-  }
-  if (event.target == baptism_modal) {
-    baptism_modal.style.display = "none";
-  }
-  if (event.target == weddings_modal) {
-    weddings_modal.style.display = "none";
-  }
-  if (event.target == cd_modal) {
-    cd_modal.style.display = "none";
-  }
+// window.onclick = function(event) {
+//   if (event.target == profile_modal) {
+//     profile_modal.style.display = "none";
+//   }
+//   if (event.target == create_modal) {
+//     create_modal.style.display = "none";
+//   }
+//   if (event.target == submit_modal) {
+//     submit_modal.style.display = "none";
+//   }
+//   if (event.target == generate_modal) {
+//     generate_modal.style.display = "none";
+//   }
+//   if (event.target == basic_modal) {
+//     basic_modal.style.display = "none";
+//   }
+//   if (event.target == life_modal) {
+//     life_modal.style.display = "none";
+//   }
+//   if (event.target == sol1_modal) {
+//     sol1_modal.style.display = "none";
+//   }
+//   if (event.target == advance_modal) {
+//     advance_modal.style.display = "none";
+//   }
+//   if (event.target == sol2_modal) {
+//     sol2_modal.style.display = "none";
+//   }
+//   if (event.target == specialized_modal) {
+//     specialized_modal.style.display = "none";
+//   }
+//   if (event.target == sol3_modal) {
+//     sol3_modal.style.display = "none";
+//   }
+//   if (event.target == cell_modal) {
+//     cell_modal.style.display = "none";
+//   }
+//   if (event.target == baptism_modal) {
+//     baptism_modal.style.display = "none";
+//   }
+//   if (event.target == weddings_modal) {
+//     weddings_modal.style.display = "none";
+//   }
+//   if (event.target == cd_modal) {
+//     cd_modal.style.display = "none";
+//   }
+// }
+
+
+
+
+
+
+
+
+
+// Cell Report Modal Data
+var cell_modal = document.getElementById("cell-modal");
+var cell_btn = document.getElementById("cell-report");
+var close_cell = document.getElementsByClassName("close1")[0];
+
+// Ministry Report Modal Data
+var ministry_modal = document.getElementById("ministry-modal"); 
+var ministry_btn = document.getElementById("ministry-report");
+var close_ministry = document.getElementsByClassName("close1")[1];
+
+// Add Modal Data
+var add_modal = document.getElementById("add-modal");
+var add_btn = document.getElementById("add-disc");
+var close_add = document.getElementsByClassName("close1")[2];
+
+
+// Open modal
+profile_btn.onclick = function() {
+    profile_modal.style.display = "block";
+}
+cell_btn.onclick = function() {
+    cell_modal.style.display = "block";
+}
+ministry_btn.onclick = function() {
+    ministry_modal.style.display = "block";
+}
+add_btn.onclick = function() {
+    add_modal.style.display = "block";
 }
 
 
+// Close the modal with X
+close_profile.onclick = function() {
+    profile_modal.style.display = "none";
+}
+close_cell.onclick = function() {
+    cell_modal.style.display = "none";
+}
+close_ministry.onclick = function() {
+    ministry_modal.style.display = "none";
+}
+close_add.onclick = function() {
+    add_modal.style.display = "none";
+}
+
+
+// Close the modal with window touch
+// window.onclick = function(event) {
+//     if (event.target == profile_modal) {
+//         profile_modal.style.display = "none";
+//     }
+//     if (event.target == cell_modal) {
+//         cell_modal.style.display = "none";
+//     }
+//     if (event.target == ministry_modal) {
+//         ministry_modal.style.display = "none";
+//     }
+//     if (event.target == add_modal) {
+//       add_modal.style.display = "none";
+//     }
+// }
 

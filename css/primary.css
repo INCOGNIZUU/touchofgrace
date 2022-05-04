@@ -1,21 +1,28 @@
-
-.primary {
-    background-color: #3DBD96;
+main {
+    background-color: #0BD497;
     overflow: hidden;
     min-height: 100vh;
     width: 100%;
 }
 
-.primary-banner > img {
+@media (min-width: 769px) {
+    main {
+        width: 80%;
+    }
+}
+
+/* Banner */
+
+.banner > img {
     position: relative;
     width: 100%;
     height: 200px;
 }
-
-.primary-banner > h1 {
+.banner > h1 {
     font-family: metropolis-md;
     font-size: 33px;
-    color: #137F82;
+    /* color: #137F82; */
+    color: #000;
     position: absolute;
     margin-left: 50px;
     float: left;
@@ -23,20 +30,20 @@
 }
 
 @media (min-width: 1025px) {
-    .primary-banner > img {
+    .banner > img {
         width: 80vw;
         height: auto;   
     }
 
-    .primary-banner > h1 {
+    .banner > h1 {
         top: 100px;
     }
 
 }
 
 
-/* Primary Filter */
-.primary-filter {
+/* Filter */
+.filter {
     z-index: 4;
     width: 80%;
     display: flex;
@@ -47,7 +54,7 @@
 
 }
 
-.primary-filter button {
+.filter button {
     z-index: 4;
     cursor: pointer;
     font-family: metropolis;
@@ -62,29 +69,17 @@
     -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
 }
 
-.primary-filter button:hover {
+.filter button:hover {
     opacity: .5;
 }
 
-.primary-filter button:nth-child(1) {
-    display: none;
-    color: #3BBB76;
-    background-color: #77FABB;
-}
-.primary-filter button:nth-child(2) {
-    color: #70BFC1 ;
-    background-color: #32EC93;
-}
-.primary-filter button:nth-child(3) {
-    color: #3BBB76;
+.filter button {
+    color: #000;
     background-color: #77FABB;
 }
 
-@media (min-width: 769px) {
-    .primary-filter button:nth-child(1) {
-        display: block;
-    }
-    .primary-filter {
+@media (min-width: 1320px) {
+    .filter {
         margin-top: -150px;
         margin-left: 50px;
         justify-content: flex-start;
@@ -92,13 +87,15 @@
     }
 }
 
-/* Primary Content */
-.primary .primary-content {
+
+
+/* Content */
+.content {
     margin-bottom: 100px;
     padding: 0 40px;
 }
 
-.primary-content > .primary-profile {
+.profile {
     text-align: start;
     padding: 20px;
     font-family: metropolis;
@@ -108,37 +105,38 @@
     margin: 0 auto;
 }
 
-.primary-content > .primary-profile:hover {
+.profile:hover {
     cursor: pointer;
-    border-radius: 1rem;
-   box-shadow: 0 0 15px rgba(0,0,0,0.07);
 }
 
-.primary-profile h1 {
+.profile h1 {
     font-family: metropolis-md;
     text-transform: uppercase;
     color: #fff;
     font-size: 24px;
 }
 
-.primary-profile h2 {
+.profile h2 {
     color: #fff;
     font-size: 16px;
     font-weight: 300px;
 }
 
-.primary-profile div {
+.profile div {
     color: #fff;
     margin-left: 20px;
 }
 
-.primary-profile img {
+.profile img {
     width: 161px;
     height: 161px;
+    border-radius: 50%;
 }
 
 
-/* Primary Modal */
+
+
+/* Modal */
 
 .close-prim {
     color: 000;
@@ -184,6 +182,7 @@
     width: 161px;
     height: 161px;
     position: relative; 
+    border-radius: 10px;
 }
 
 .primary-modal-content .profile-data > p {

@@ -1,20 +1,29 @@
-.ministry {
+main {
     background-color: #A3D465;
     overflow: hidden;
     min-height: 100vh;
     width: 100%;
 }
 
-.ministry-banner > img {
+@media (min-width: 769px) {
+    main {
+        width: 80%;
+    }
+}
+
+/* Banner */
+
+.banner > img {
     position: relative;
     width: 100%;
     height: 200px;
 }
 
-.ministry-banner > h1 {
+.banner > h1 {
     font-family: metropolis-md;
     font-size: 33px;
-    color: #137F82;
+    /* color: #137F82; */
+    color: #000;
     position: absolute;
     margin-left: 50px;
     float: left;
@@ -22,25 +31,25 @@
 }
 
 @media (min-width: 1025px) {
-    .ministry-banner > img {
+    .banner > img {
         width: 80vw;
         height: auto;   
     }
 
-    .ministry-banner > h1 {
+    .banner > h1 {
         top: 100px;
     }
 }
 
 
-/* Ministry Content */
-.ministry .ministry-content {
+/* Content */
+.content {
     margin-top: -100px;
     margin-bottom: 100px;
     padding: 0 40px;
 }
 
-.ministry .ministry-content > .ministry-profile {
+.content > .profile {
     text-align: start;
     padding: 20px;
     font-family: metropolis;
@@ -51,31 +60,31 @@
 
 }
 
-.ministry .ministry-content > .ministry-profile:hover {
+.content > .profile:hover {
     cursor: pointer;
-    border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.07);
+    /* border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.07); */
 }
 
-.ministry .ministry-profile h1 {
+.profile h1 {
     font-family: metropolis-md;
     text-transform: uppercase;
     color: #fff;
     font-size: 20px;
 }
 
-.ministry .ministry-profile h2 {
+.profile h2 {
     color: #fff;
     font-size: 16px;
     font-weight: 300px;
 }
 
-.ministry .ministry-profile div {
+.profile div {
     color: #fff;
     margin-left: 20px;
 }
 
-.ministry .ministry-profile img {
+.profile img {
     width: 161px;
     height: 161px;
 }
@@ -98,7 +107,7 @@
     cursor: pointer;
 }
 
-.ministry .ministry-modal {
+.ministry-modal {
     display: none;
     position: fixed;
     z-index: 6;
@@ -111,7 +120,7 @@
     background-color: rgba(0,0,0,0.4);
 }
 
-.ministry .ministry-modal-content {
+.ministry-modal-content {
     text-align: center;
     background-color: #fefefe;
     margin: 0 auto;
@@ -121,37 +130,37 @@
     max-width: 769px;
 }
 
-.ministry .ministry-modal-content img {
+.ministry-modal-content img {
     width: 161px;
     height: 161px;
     position: relative; 
 }
 
-.ministry .ministry-modal-content .profile-data > p {
+.ministry-modal-content .profile-data > p {
     margin-bottom: 20px;
 }
 
-.ministry .ministry-modal-content .profile-data h1 {
+.ministry-modal-content .profile-data h1 {
     font-family: metropolis-md;
     color: #000;
     text-transform: uppercase;
     font-size: 24px;
 }
 
-.ministry .ministry-modal-content h1  {    
+.ministry-modal-content h1  {    
     text-align: center;
     font-family: metropolis-bold;
     font-size: 40px;
     padding: 20px;
 }
 
-.ministry .ministry-modal-content > div:nth-child(2) {
+.ministry-modal-content > div:nth-child(2) {
     display: flex;
     width: 90%;
     margin:  0 auto;
 }
 
-.ministry .ministry-modal-content > div:nth-child(4)  {
+.ministry-modal-content > div:nth-child(4)  {
     position: relative;
     border-collapse: collapse;
     border-spacing: 0;
@@ -160,17 +169,17 @@
     margin-top: 50px;
 }
 
-.ministry .ministry-modal-content .profile-data {
+.ministry-modal-content .profile-data {
     margin-top: 20px;
     width: 100%;
 }
 
-.ministry .ministry-modal-content .profile-data p {
+.ministry-modal-content .profile-data p {
     font-family: metropolis;
     font-size: 20px;
 }
 
-.ministry .ministry-modal-content .profile-data button {
+.ministry-modal-content .profile-data button {
     cursor: pointer;
     font-family: metropolis;
     font-size: 16px;
@@ -180,14 +189,14 @@
     border-radius: 20px;
 }
 
-.ministry .ministry-modal-content table {
+.ministry-modal-content table {
     font-family: metropolis;
     text-align: center;
     width: 90%;
     margin: 0 auto;
 }
 
-.ministry .ministry-modal-content table th {
+.ministry-modal-content table th {
     text-align: center;
     font-family: metropolis-bold;
     text-transform: uppercase;
@@ -195,7 +204,7 @@
     padding: 5px 10px;
 }
 
-.ministry .ministry-modal-content > select {
+.ministry-modal-content > select {
     cursor: pointer;
     font-family: metropolis-bold;
     font-family: 20px;
@@ -207,8 +216,7 @@
     float: left;
 }
 
-
-.ministry .ministry-modal-content .profile-data div {
+.ministry-modal-content .profile-data div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,41 +225,40 @@
 
 
 @media (min-width: 769px) {
-    .ministry .ministry-modal{
+    .ministry-modal{
         padding-top: 150px;
     }
     
-    .ministry .ministry-modal-content {
+    .ministry-modal-content {
         border-radius: 20px;
         height: 600px;
     }
     
-    .ministry .ministry-modal-content div:nth-child(4){
+    .ministry-modal-content div:nth-child(4){
         height: 300px;
     }
 }
 
 
-.ministry .ministry-modal-content table tr td:nth-child(odd) {
+.ministry-modal-content table tr td:nth-child(odd) {
     color: #000;
     background-color: #A3D465;
 }
 
-.ministry .ministry-modal-content table tr td:nth-child(even) {
+.ministry-modal-content table tr td:nth-child(even) {
     color: #000;
     background-color: #7eaf3e;
 }
-
-.ministry .ministry-modal-content table tr td:nth-child(1) {
+.ministry-modal-content table tr td:nth-child(1) {
     text-transform: uppercase;
     background-color: #9abf69;
 }
 
-.ministry .ministry-modal-content table tr:nth-child(even) {
+.ministry-modal-content table tr:nth-child(even) {
     opacity: .6;
 }
 
-.ministry .ministry-modal-content table th {
+.ministry-modal-content table th {
     background-color: #EEE;
     color: #000;
     opacity: 1;

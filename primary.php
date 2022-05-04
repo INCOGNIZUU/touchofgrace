@@ -1,38 +1,92 @@
 <?php include 'inc/header.php'; ?>
-<?php include 'inc/navbar.php'; ?>
 
+<link rel="stylesheet" href="css/primary.css">
 
-<section class="primary">
+<title>Home</title>
+</head>
 
-    <section class="primary-banner">
-        <img src="images/primary-banner.png" alt="">
-        <h1>Primary</h1>
-    </section>
+<body>
+    <?php include 'inc/navbar.php'; ?>
 
-    <section class="primary-filter">
-        <button>All</button>
-        <button>Male</button>
-        <button>Female</button>
-    </section>
+    <main>
 
-    <section class="primary-content">
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4" id="primary-btn">
+        <section class="banner">
+            <img src="images/primary-banner.png" alt="">
+            <h1>Primary</h1>
+        </section>
 
-            <img src="images/profile/profile-circle.png" alt="">
-            <div>
-                <h1>John Does</h1>
-                <h2>Head of Ministry</h2>
-                <p>Lorem Ipsum</p>
+        <section class="filter">
+            <button>All</button>
+            <button>Men</button>
+            <button>Women</button>
+        </section>
+
+        <section class="content">
+            <div class="profile col-sm-12 col-md-12 col-lg-6" id="primary-btn">
+
+                <img src="images/profile/13237773_182720095456679_3941724484136261738_n.jpeg" alt="">
+                <div>
+                    <h1>John Does</h1>
+                    <h2>Head of Ministry</h2>
+                    <p>Lorem Ipsum</p>
+                </div>
             </div>
-        </div>
 
-        <!-- Primary Modal -->
-        <div class="primary-modal" id="primary-modal">
+            <div class="profile col-sm-12 col-md-12 col-lg-6" id="primary-btn">
+                <img src="images/profile/profile-circle.png" alt="">
+                <div>
+                    <h1>John Does</h1>
+                    <h2>Head of Ministry</h2>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+
+            <div class="profile col-sm-12 col-md-12 col-lg-6" id="primary-btn">
+                <img src="images/profile/profile-circle.png" alt="">
+                <div>
+                    <h1>John Does</h1>
+                    <h2>Head of Ministry</h2>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+
+            <div class="profile col-sm-12 col-md-12 col-lg-6" id="primary-btn">
+                <img src="images/profile/profile-circle.png" alt="">
+                <div>
+                    <h1>John Does</h1>
+                    <h2>Head of Ministry</h2>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+
+            <div class="profile col-sm-12 col-md-12 col-lg-6" id="primary-btn">
+                <img src="images/profile/profile-circle.png" alt="">
+                <div>
+                    <h1>John Does</h1>
+                    <h2>Head of Ministry</h2>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+
+            <div class="profile col-sm-12 col-md-12 col-lg-6" id="primary-btn">
+                <img src="images/profile/profile-circle.png" alt="">
+                <div>
+                    <h1>John Does</h1>
+                    <h2>Head of Ministry</h2>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Modal -->
+        <section class="primary-modal" id="primary-modal">
             <div class="primary-modal-content" id="primary-modal-content">
                 <span class="close-prim">&times;</span>
                 <div>
 
-                    <img src="images/profile/Profile Picture.png" alt="Profile Image">
+                    <img src="images/profile/13237773_182720095456679_3941724484136261738_n.jpeg" alt="Profile Image">
                     <div class="profile-data">
                         <h1>John Doe</h1>
                         <p>Primary, Ministry of Music, etc.</p>
@@ -80,54 +134,8 @@
                     </table>
                 </div>
             </div>
-        </div>
-        <!-- Primary Modal End -->
+        </section>
 
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
-            <div>
-                <h1>John Does</h1>
-                <h2>Head of Ministry</h2>
-                <p>Lorem Ipsum</p>
-            </div>
-        </div>
-
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
-            <div>
-                <h1>John Does</h1>
-                <h2>Head of Ministry</h2>
-                <p>Lorem Ipsum</p>
-            </div>
-        </div>
-
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
-            <div>
-                <h1>John Does</h1>
-                <h2>Head of Ministry</h2>
-                <p>Lorem Ipsum</p>
-            </div>
-        </div>
-
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
-            <div>
-                <h1>John Does</h1>
-                <h2>Head of Ministry</h2>
-                <p>Lorem Ipsum</p>
-            </div>
-        </div>
-
-        <div class="primary-profile col-sm-12 col-md-6 col-lg-4">
-            <img src="images/profile/profile-circle.png" alt="">
-            <div>
-                <h1>John Does</h1>
-                <h2>Head of Ministry</h2>
-                <p>Lorem Ipsum</p>
-            </div>
-        </div>
-    </section>
-
-</section>
-<script src="js/primary.js"></script>
+    </main>
+    <script src="js/primary.js"></script>
+    <?php include 'inc/footer.php'; ?>

@@ -1,22 +1,22 @@
-/* Pastor Banner */
-
-.pastors { 
+main { 
     overflow: hidden;
-    background-color: #48BEFF;
+    /* background-color: #48BEFF; */
+    background-color: #6eb5ff;
     min-height: 100vh;
     width: 100%;
 }
 
-.pastors-banner > img {
+.banner > img {
     position: relative;
     width: 100%;
     height: 200px;
 }
 
-.pastors-banner > h1 {
+.banner > h1 {
     font-family: metropolis-md;
     font-size: 33px;
-    color: #137F82;
+    /* color: #137F82; */
+    color: #000;
     position: absolute;
     margin-left: 50px;
     float: left;
@@ -24,12 +24,12 @@
 }
 
 @media (min-width: 1025px) {
-    .pastors-banner > img {
+    .banner > img {
         width: 80vw;
         height: auto;   
     }
 
-    .pastors-banner > h1 {
+    .banner > h1 {
         top: 100px;
     }
 
@@ -37,7 +37,7 @@
 
 
 /* Pastor Filter */
-.pastor-filter {
+.filter {
     width: 100%;
     display: flex;
     align-items: center ;
@@ -46,7 +46,7 @@
     margin-top: -70px;
 }
 
-.pastor-filter input[type="search"] {
+.filter input[type="search"] {
     border: 0;
     border-radius: 20px;
     height: 30px;
@@ -55,11 +55,11 @@
 
 
 /* Pastor Content */
-.pastor-content {
+.content {
     margin-top: -20px;
     padding: 0 40px;
 }
-.pastor-content > .pastor-profile {
+.content > .pastor-profile {
     text-align: start;
     padding: 20px;
     font-family: metropolis;
@@ -69,10 +69,10 @@
     margin: 0 auto;
 }
 
-.pastor-content > .pastor-profile:hover {
+.content > .pastor-profile:hover {
     cursor: pointer;
-    border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.07);
+    /* border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.07); */
 }
 
 .pastor-profile h1 {
@@ -97,6 +97,8 @@
 .pastor-profile img {
     width: 161px;
     height: 161px;
+
+    border-radius: 50%;
 }
 
 @media (min-width: 769px) {
@@ -104,10 +106,6 @@
         margin-top: -100px;
     }
 }
-
-
-
-
 
 
 /* Pastor Modal */
@@ -145,6 +143,7 @@
     left: 0;
     margin-top: -80px;
     margin-left: -20px;
+    border-radius: 20px;
 }
 
 .pastor-modal-content .profile-data > p {

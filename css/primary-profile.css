@@ -1,0 +1,59 @@
+.primary-profile {
+    background-color: #0BD497;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.primary-profile .primary-banner > img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.primary-profile .primary-banner > h1 {
+    font-family: metropolis-md;
+    font-size: 33px;
+    /* color: #137F82; */
+    color: #000;
+    position: absolute;
+    margin-left: 50px;
+    float: left;
+    top: 60px;
+}
+
+
+@media (min-width: 1025px) {
+    .primary-profile .primary-banner > img {
+        width: 80vw;
+        height: auto;   
+    }
+
+    .primary-profile .primary-banner > h1 {
+        top: 100px;
+    }
+
+}
+
+.primary-profile .primary-data {
+    z-index: 1;
+    margin-top: -100px;
+}
+
+
+
+
+.primary-profile .profile-table table {
+    font-family: metropolis;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.primary-profile .profile-table table th {
+    text-align: center;
+    font-family: metropolis-bold;
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    padding: 5px 10px;
+}

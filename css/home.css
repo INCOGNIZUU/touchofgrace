@@ -1,12 +1,11 @@
-
- .home {
-    background-color: #fff;
+main {
+    background-color: #85e3ff;
 }
 
-.home > .bg-img {
+main > .bg-img {
     width: 100%;
     height: 315px;
-    background-color: #55cbcd;
+    background-color: #85e3ff;
     background-image: url('../images/profile/Vector.png');
     background-size: 120%;
     background-repeat: no-repeat;
@@ -14,271 +13,14 @@
 }
 
 @media (min-width: 769px) {
-    .home > .bg-img {
+    main > .bg-img {
         background-size: 50%;
     }
 }
 
-
-
-
-/* For All Modals in Home (Level 1) */
-
-.close{
-    color: #fff;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
-    font-size: 40px;
-    font-weight: bold;
-}
-.close-train {
-    color: 000;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus{
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.close-train:hover,
-.close-train:focus {
-    color: #EEE;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.profile-modal,
-.create-modal,
-.submit-modal,
-.generate-modal,
-.basic-modal,
-.life-modal,
-.sol1-modal,
-.sol2-modal,
-.sol3-modal,
-.cell-training-modal,
-.baptism-modal,
-.weddings-modal,
-.cd-modal,
-.advance-modal,
-.specialized-modal{
-   display: none;
-   position: fixed;
-   z-index: 6;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   overflow: auto;
-   background-color: rgb(0,0,0);
-   background-color: rgba(0,0,0,0.4);
-}
-
-.profile-modal-content,
-.create-modal-content,
-.submit-modal-content,
-.generate-modal-content,
-.basic-modal-content,
-.life-modal-content,
-.sol1-modal-content,
-.sol2-modal-content,
-.sol3-modal-content,
-.cell-training-content,
-.baptism-modal-content,
-.weddings-modal-content,
-.cd-modal-content,
-.advance-modal-content,
-.specialized-modal-content {
-    background-color: #fefefe;
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;
-}
-
-
-.profile-modal-content > .bg-img,
-.create-modal-content > .bg-img,
-.submit-modal-content > .bg-img,
-.generate-modal-content > .bg-img{
-   width: 100%;
-   height: 200px;
-   background-size: 100%;
-   background-repeat: no-repeat;
-   background-position: center;
-}
-
-.profile-modal-content form,
-.create-modal-content form,
-.submit-modal-content form,
-.generate-modal-content form {
-    width: 80%;
-    margin: 40px auto;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.profile-modal-content h1,
-.create-modal-content h1,
-.submit-modal-content h1,
-.generate-modal-content h1 {
-    font-family: metropolis-md;
-    font-size: 21px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.create-modal-content form input,
-.submit-modal-content form input,
-.generate-modal-content form input {
-    height: 30px;
-}
-
-.profile-modal-content form > input[type="submit"],
-.create-modal-content form > input[type="submit"],
-.submit-modal-content form > input[type="submit"],
-.generate-modal-content form > input[type="submit"],
-.create-modal-content form select,
-.submit-modal-content form select,
-.generate-modal-content form select{
-    border: 0;
-    font-family: metropolis;
-    width: 100%;
-    height: 30px;
-    margin: 30px 0;
-    font-size: 13px;
-    border-bottom: 1px solid;
-}
-
-.create-modal-content form input[type="email"] {
-    font-size: 13px;
-    height: 30px;
-    border: 0;
-    border-bottom: 1px solid #48BEFF;
-}
-
-.profile-modal-content form label,
-.create-modal-content form label,
-.submit-modal-content form label,
-.generate-modal-content form label{
-    font-family: metropolis;
-    font-size: 13px;
-}
-
-.profile-modal .filter-gender,
-.generate-modal .filter-gender {
-    margin-top: 10px;
-    display: flex;
-    justify-content: flex-start;
-    font-family: metropolis;
-}
-
-
-@media (min-width: 769px) {
-    .profile-modal-content,
-    .create-modal-content,
-    .submit-modal-content,
-    .generate-modal-content{
-        background-color: #fefefe;
-        margin: 0 auto;
-        border: 1px solid #888;
-        width: 613px;
-        border-radius: 20px;
-    }
-
-    .basic-modal-content,
-    .life-modal-content,
-    .sol1-modal-content,
-    .sol2-modal-content,
-    .sol3-modal-content,
-    .cell-training-content,
-    .baptism-modal-content,
-    .weddings-modal-content,
-    .cd-modal-content,
-    .advance-modal-content,
-    .specialized-modal-content{
-        background-color: #fefefe;
-        margin: 0 auto;
-        border: 1px solid #888;
-        width: 769px;
-        border-radius: 20px;
-    }
-
-    .profile-modal,
-    .create-modal,
-    .submit-modal,
-    .generate-modal {
-        padding-top: 50px;
-    }
-
-    .basic-modal,
-    .life-modal,
-    .sol1-modal,
-    .sol2-modal,
-    .sol3-modal,
-    .cell-training-modal,
-    .baptism-modal,
-    .weddings-modal,
-    .cd-modal,
-    .advance-modal,
-    .specialized-modal {
-        padding-top: 100px;
-    }
-
-    .profile-modal-content {
-        height: 750px;
-    }
-
-    .create-modal-content {
-        height: 784px;
-    }
-
-    .submit-modal-content {
-        height: 850px;
-    }
-    
-    .generate-modal-content {
-        height: 720px;
-    }
-
-    .basic-modal-content,
-    .life-modal-content,
-    .sol1-modal-content,
-    .sol2-modal-content,
-    .sol3-modal-content,
-    .cell-training-content,
-    .baptism-modal-content,
-    .weddings-modal-content,
-    .cd-modal-content,
-    .advance-modal-content,
-    .specialized-modal-content {
-        height: 500px;
-    }
-
-    .profile-modal-content > .bg-img,
-    .create-modal-content > .bg-img,
-    .submit-modal-content > .bg-img,
-    .generate-modal-content > .bg-img {
-        border-radius: 20px 20px 0 0;
-    }
-    
-}
-
-
 /* Profile */
-.home {
-    background-color: #55cbcd;
-}
 
-.home .profile {
+.profile {
     font-family: metropolis;
     color: #000;
     margin: 0 auto;
@@ -288,12 +30,10 @@
     border-radius: 20px;
     width: 80%;
     text-align: center;
-    box-shadow: 0px 0px 17px 0px rgba(0,0,0,1);
-    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.07);
 }
 
-.home .profile > img {
+.profile > img {
     width: 161px;
     height: 161px;
     float: left;
@@ -304,14 +44,14 @@
     margin-left: -20px;
 }
 
-.home .profile-data h1 {
+.profile-data h1 {
     font-family: metropolis-md;
     color: #000;
     text-transform: uppercase;
     font-size: 24px;
 }
 
-.home .profile-data button {
+.profile-data button {
     position: relative;
     float: right;
     bottom: 0;
@@ -327,17 +67,17 @@
     -moz-box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.55);
 }
 
-.home .profile-data button:hover {
+.profile-data button:hover {
     cursor: pointer;
 }
 
 @media (min-width: 769px) {
-    .home .profile {
+    .profile {
         width: 95%;
         text-align: left;
     }
 
-    .home .profile .profile-data {
+    .profile .profile-data {
         margin-left: 180px;
     }
 }
@@ -666,6 +406,10 @@
 
 }
 
+.functions button:hover {
+    cursor: pointer;
+}
+
 /* Trainings */
 .trainings {
     padding: 0 40px;
@@ -674,6 +418,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.trainings > section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .trainings form input {
@@ -700,47 +450,47 @@
     opacity: .8;
 }
 
-.trainings .training-card:nth-child(1) {
+.trainings section:nth-child(1) .training-card:nth-child(1) {
     background-color: #FF3294;
 }
 
-.trainings .training-card:nth-child(2) {
+.trainings section:nth-child(1) .training-card:nth-child(2) {
     background-color: #32DAFF;
 }
 
-.trainings .training-card:nth-child(3) {
+.trainings  section:nth-child(1) .training-card:nth-child(3) {
     background-color: #4AF851;
 }
 
-.trainings .training-card:nth-child(4) {
+.trainings  section:nth-child(1) .training-card:nth-child(4) {
     background-color: #FF9040;
 }
 
-.trainings .training-card:nth-child(5) {
+.trainings  section:nth-child(1) .training-card:nth-child(5) {
     background-color: #DF4AF8;
 }
 
-.trainings .training-card:nth-child(6) {
+.trainings  section:nth-child(2) .training-card:nth-child(1) {
     background-color: #325FFF;
 }
 
-.trainings .training-card:nth-child(7) {
+.trainings  section:nth-child(2) .training-card:nth-child(2) {
     background-color: #FFEA32;
 }
 
-.trainings .training-card:nth-child(8) {
+.trainings  section:nth-child(2) .training-card:nth-child(3) {
     background-color: #F46141;
 }
 
-.trainings .training-card:nth-child(9) {
+.trainings  section:nth-child(3) .training-card:nth-child(1) {
     background-color: #FF3232;
 }
 
-.trainings .training-card:nth-child(10) {
+.trainings  section:nth-child(3) .training-card:nth-child(2) {
     background-color: #23a798;
 }
 
-.trainings .training-card:nth-child(11) {
+.trainings  section:nth-child(3) .training-card:nth-child(3) {
     background-color: #40D460;
 }
 
@@ -780,18 +530,6 @@
     padding-bottom: 100px;
 }
 
-
-/* Training Modals Design */
-
-/* 
-.basic-modal-content,
-.life-modal-content,
-.sol1-modal-content,
-.sol2-modal-content,
-.sol3-modal-content,
-.cell-training-modal {
-}
- */
 
 .basic-modal-content h1,
 .life-modal-content h1,
@@ -910,34 +648,6 @@
     border: 0;
 }
 
-/* .basic-modal-content select {
-    color: #32DAFF;
-}
-.life-modal-content select {
-    color: #4AF851;
-}
-.sol1-modal-content select {
-    color: #FF9040;
-}
-.sol2-modal-content select {
-    color: #DF4AF8;
-}
-.sol3-modal-content select {
-    color: #325FFF;
-}
-.cell-training-content select {
-    color: #FFEA32;
-}
-.baptism-modal-content select {
-    color: #F46141;
-}
-.weddings-modal-content select {
-    color: #34CEBC;
-}
-.cd-modal-content select {
-    color: #40D460;
-} */
-
 .basic-modal-content div,
 .life-modal-content div,
 .sol1-modal-content div,
@@ -977,232 +687,394 @@
 }
 
 
-/* .basic-modal-content table tr td:nth-child(odd) {
-    color: #EEEEEE;
-    background-color: #32DAFF;
+
+
+
+
+
+
+
+
+/* Cell Modal */
+.cell-modal-content > .bg-img {
+    background-color: #48BEFF;
+    background-image: url('../images/profile/Vector.png');
+}
+.cell-modal-content form {
+    color: #48BEFF;
 }
 
-.basic-modal-content table tr td:nth-child(even) {
-    color: #EEEEEE;
-    background-color: #25a2be;
+.cell-modal-content form > input[type="submit"] {
+    background-color: #48BEFF;
+    color: #ABF7F9;
 }
 
-.basic-modal-content table tr td:nth-child(1) {
+.cell-modal-content h1 {
+    color: #48BEFF;
+}
+
+.cell-modal-content form input::placeholder,
+.cell-modal-content form label,
+.cell-modal-content form textarea::placeholder{
+    color: #48BEFF;
+}
+
+.cell-modal-content form textarea {
+    border-color: #48BEFF;
+}
+
+.cell-modal-content form .date {
+    border: 0;
+    border-bottom: 1px solid #48BEFF;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.cell-modal-content form input[type="date"] {
+    color: #48BEFF;
     text-transform: uppercase;
-    background-color: #43dafb;
+    border: 0;
 }
 
-.basic-modal-content table tr:nth-child(even) {
+
+.cell-modal-content form input {
+    border: 0;
+    border-bottom: 1px solid #48BEFF;
+}
+
+.cell-modal .checkbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell-modal .checkbox div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.cell-modal .checkbox div label {
+    margin-left: 10px;
+}
+
+.cell-modal .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.cell-modal .filter-gender div {
+    padding: 10px 40px;
+}
+
+.cell-modal .filter-gender .active {
+    background-color: #48BEFF;
+    color: #000;
+}
+
+.cell-modal-content form input::placeholder,
+.cell-modal-content form select,
+.cell-modal-content form label{
+    color: #48BEFF;
+}
+
+
+
+
+
+/* Ministry Modal */
+.ministry-modal-content > .bg-img {
+    background-color: #3DBD96;
+    background-image: url('../images/profile/Vector.png');
+}
+
+.ministry-modal-content form {
+    color: #3DBD96;
+}
+
+.ministry-modal-content form > input[type="submit"] {
+    background-color: #3DBD96;
+    color: #ABF7F9;
+}
+
+.ministry-modal-content h1 {
+    color: #3DBD96;
+}
+
+.ministry-modal-content form input::placeholder,
+.ministry-modal-content form label,
+.ministry-modal-content form textarea::placeholder{
+    color: #3DBD96;
+}
+
+.ministry-modal-content form textarea {
+    border-color: #3DBD96;
+}
+
+.ministry-modal-content form .date {
+    border: 0;
+    border-bottom: 1px solid #3DBD96;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.ministry-modal-content form input[type="date"] {
+    color: #3DBD96;
+    text-transform: uppercase;
+    border: 0;
+}
+
+
+.ministry-modal-content form input {
+    border: 0;
+    border-bottom: 1px solid #3DBD96;
+}
+
+.ministry-modal .checkbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ministry-modal .checkbox div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.ministry-modal .checkbox div label {
+    margin-left: 10px;
+}
+
+.ministry-modal .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.ministry-modal .filter-gender div {
+    padding: 10px 40px;
+}
+
+.ministry-modal .filter-gender .active {
+    background-color: #3DBD96;
+    color: #000;
+}
+
+.ministry-modal-content form input::placeholder,
+.ministry-modal-content form select,
+.ministry-modal-content form label{
+    color: #3DBD96;
+}
+
+ 
+
+/* Add Modal */
+
+.add-modal-content > .bg-img {
+    background-color: #A3D465;
+    background-image: url('../images/profile/Vector.png');
+}
+
+.add-modal-content form {
+    color: #A3D465;
+}
+
+.add-modal-content form > input[type="submit"] {
+    background-color: #A3D465;
+    color: #ABF7F9;
+}
+
+.add-modal-content h1 {
+    color: #A3D465;
+}
+
+.add-modal-content form input::placeholder,
+.add-modal-content form label,
+.add-modal-content form textarea::placeholder{
+    color: #A3D465;
+}
+
+.add-modal-content form textarea {
+    border-color: #A3D465;
+}
+
+.add-modal-content form .date {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+    margin-bottom: 10px;
+}
+
+.add-modal-content form .bday {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+    margin-bottom: 10px;
+}
+
+.add-modal-content form .contact-num {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+    margin-bottom: 10px;
+}
+
+.add-modal-content form input[type="date"] {
+    color: #A3D465;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.add-modal-content form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-modal-content form input {
+    border: 0;
+    border-bottom: 1px solid #A3D465;
+}
+
+.add-modal .checkbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-modal .checkbox div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.add-modal .checkbox div label {
+    margin-left: 10px;
+}
+
+.add-modal .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.add-modal .filter-gender div {
+    padding: 10px 40px;
+}
+
+.add-modal .filter-gender .active {
+    background-color: #A3D465;
+    color: #000;
+}
+
+.add-modal-content form input::placeholder,
+.add-modal-content form select,
+.add-modal-content form label{
+    color: #A3D465;
+}
+
+
+
+.add-modal-content form .checkbox div label {
+    margin-left: 10px;
+}
+
+.add-modal-content form .filter-gender {
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+.add-modal-content form .filter-gender div {
+    padding: 10px 40px;
+}
+
+.add-modal-content form .filter-gender .active {
+    background-color: #A3D465;
+    color: #000;
+}
+
+/* Table */
+.primary-table {
+    overflow: scroll;
+    border: 1px solid #000;
+    padding-bottom: 90px;
+}
+
+.primary-table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1025px) {
+    .primary-table {    
+        margin: 0 20px;
+        padding-bottom: 0;
+    }
+    .primary-table table {
+        width: 100%;
+    }
+}
+  
+.primary-table tr, td, th {
+    border: 0;
+}
+
+.primary-table td, th {
+    padding: 8px;
+}
+
+.primary-table th {
+    font-family: metropolis-bold;
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+    text-align: left;
+    background-color: #EEEEEE;
+    color: #099295;
+    padding: 5px;
+}
+
+.primary-table td {
+    border-right: 1px solid #000;
+}
+
+.primary-table tr td:nth-child(odd) {
+    color: #EEEEEE;
+    background-color: #3CAA89;
+}
+
+.primary-table tr td:nth-child(even) {
+    color: #EEEEEE;
+    background-color: #2A8368;
+}
+
+.primary-table tr td:nth-child(1) {
+    text-transform: uppercase;
+    background-color: #43C59E;
+}
+
+.primary-table tr:nth-child(even) {
     opacity: .6;
 }
 
-.basic-modal-content table th {
+.primary-table .table th {
     background-color: #EEEEEE;
-    color: #32DAFF;
+    color: #099295;
     opacity: 1;
-} */
-
-
-
-/* .life-modal-content table tr td:nth-child(odd) {
-    background-color: #4AF851;
 }
 
-.life-modal-content table tr td:nth-child(even) {
-    background-color: #23de2a;
+.trainings {
+    display: none;
 }
-
-.life-modal-content table tr td:nth-child(1) {
-    text-transform: uppercase;
-    background-color: #55e359;
-}
-
-.life-modal-content table tr:nth-child(even) {
-    opacity: .6;
-}
-
-.life-modal-content table th {
-    background-color: #EEEEEE;
-    color: #4AF851;
-    opacity: 1;
-} */
-
-
-/* .sol1-modal-content table tr td:nth-child(odd) {
-    color: #EEEEEE;
-    background-color: #FF9040;
-}
-
-.sol1-modal-content table tr td:nth-child(even) {
-    color: #EEEEEE;
-    background-color: #e17426;
-}
-
-.sol1-modal-content table tr td:nth-child(1) {
-    text-transform: uppercase;
-    background-color: #d17d42;
-}
-
-.sol1-modal-content table tr:nth-child(even) {
-    opacity: .6;
-}
-
-.sol1-modal-content table th {
-    background-color: #EEEEEE;
-    color: #FF9040;
-    opacity: 1;
-} */
-
-
-/* .sol2-modal-content table tr td:nth-child(odd) {
-    color: #EEEEEE;
-    background-color: #DF4AF8;
-}
-
-.sol2-modal-content table tr td:nth-child(even) {
-    color: #EEEEEE;
-    background-color: #b62bce;
-}
-
-.sol2-modal-content table tr td:nth-child(1) {
-    text-transform: uppercase;
-    background-color: #bf58d1;
-}
-
-.sol2-modal-content table tr:nth-child(even) {
-    opacity: .6;
-}
-
-.sol2-modal-content table th {
-    background-color: #EEEEEE;
-    color: #DF4AF8;
-    opacity: 1;
-} */
-
-
-/* .sol3-modal-content table tr td:nth-child(odd) {
-    color: #EEEEEE;
-    background-color: #325FFF;
-}
-
-.sol3-modal-content table tr td:nth-child(even) {
-    color: #EEEEEE;
-    background-color: #1740d5;
-}
-
-.sol3-modal-content table tr td:nth-child(1) {
-    text-transform: uppercase;
-    background-color: #325FFF;
-}
-
-.sol3-modal-content table tr:nth-child(even) {
-    opacity: .6;
-}
-
-.sol3-modal-content table th {
-    background-color: #EEEEEE;
-    color: #325FFF;
-    opacity: 1;
-} */
-
-
-/* .cell-training-content table tr td:nth-child(odd) {
-    background-color: #FFEA32;
-}
-
-.cell-training-content table tr td:nth-child(even) {
-    background-color: #dbc71b;
-}
-
-.cell-training-content table tr td:nth-child(1) {
-    text-transform: uppercase;
-    background-color: #e7d747;
-}
-
-.cell-training-content table tr:nth-child(even) {
-    opacity: .6;
-}
-
-.cell-training-content table th {
-    background-color: #EEEEEE;
-    color: #FFEA32;
-    opacity: 1;
-} */
-
-
-/* .baptism-modal-content table tr td:nth-child(odd) {
-    color: #EEEEEE;
-    background-color: #F46141;
-}
-
-.baptism-modal-content table tr td:nth-child(even) {
-    color: #EEEEEE;
-    background-color: #d44323;
-}
-
-.baptism-modal-content table tr td:nth-child(1) {
-    text-transform: uppercase;
-    background-color: #e76c51;
-}
-
-.baptism-modal-content table tr:nth-child(even) {
-    opacity: .6;
-}
-
-.baptism-modal-content table th {
-    background-color: #EEEEEE;
-    color: #F46141;
-    opacity: 1;
-} */
-
-
-/* .weddings-modal-content table tr td:nth-child(odd) {
-    color: #EEEEEE;
-    background-color: #34CEBC;
-}
-
-.weddings-modal-content table tr td:nth-child(even) {
-    color: #EEEEEE;
-    background-color: #1bbca9;
-}
-
-.weddings-modal-content table tr td:nth-child(1) {
-    text-transform: uppercase;
-    background-color: #43cbbb;
-}
-
-.weddings-modal-content table tr:nth-child(even) {
-    opacity: .6;
-}
-
-.weddings-modal-content table th {
-    background-color: #EEEEEE;
-    color: #34CEBC;
-    opacity: 1;
-} */
-
-
-/* .cd-modal-content table tr td:nth-child(odd) {
-    color: #EEEEEE;
-    background-color: #40D460;
-}
-
-.cd-modal-content table tr td:nth-child(even) {
-    color: #EEEEEE;
-    background-color: #21b942;
-}
-
-.cd-modal-content table tr td:nth-child(1) {
-    text-transform: uppercase;
-    background-color: #52d86f;
-}
-
-.cd-modal-content table tr:nth-child(even) {
-    opacity: .6;
-}
-
-.cd-modal-content table th {
-    background-color: #EEEEEE;
-    color: #40D460;
-    opacity: 1;
-} */

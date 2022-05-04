@@ -921,6 +921,7 @@
     width: 100%;
     bottom: 0;
     background-color: #fff;
+    padding-left: 3px;
 }
 
 
@@ -957,15 +958,15 @@
 
 
 .navbar nav ul li:nth-child(1):hover {
-    filter: invert(76%) sepia(84%) saturate(314%) hue-rotate(128deg) brightness(84%) contrast(88%);
+    filter: invert(78%) sepia(19%) saturate(896%) hue-rotate(158deg) brightness(101%) contrast(101%);
 }
 
 .navbar nav ul li:nth-child(2):hover {
-    filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
+    filter: invert(70%) sepia(87%) saturate(2283%) hue-rotate(185deg) brightness(103%) contrast(101%);
 }
 
 .navbar nav ul li:nth-child(3):hover {
-    filter: invert(70%) sepia(54%) saturate(469%) hue-rotate(110deg) brightness(83%) contrast(87%);
+    filter: invert(73%) sepia(31%) saturate(7014%) hue-rotate(118deg) brightness(102%) contrast(91%);
 }
 
 .navbar nav ul li:nth-child(4):hover {
@@ -977,13 +978,13 @@
 }
 
 .active1 {
-    filter: invert(76%) sepia(84%) saturate(314%) hue-rotate(128deg) brightness(84%) contrast(88%);
+    filter: invert(78%) sepia(19%) saturate(896%) hue-rotate(158deg) brightness(101%) contrast(101%);
 }
 .active2 {
-    filter: invert(77%) sepia(33%) saturate(6089%) hue-rotate(175deg) brightness(103%) contrast(101%);
+    filter: invert(70%) sepia(87%) saturate(2283%) hue-rotate(185deg) brightness(103%) contrast(101%);
 }
 .active3 {
-    filter: invert(70%) sepia(54%) saturate(469%) hue-rotate(110deg) brightness(83%) contrast(87%);
+    filter: invert(73%) sepia(31%) saturate(7014%) hue-rotate(118deg) brightness(102%) contrast(91%);
 }
 .active4 {
     filter: invert(80%) sepia(19%) saturate(956%) hue-rotate(43deg) brightness(94%) contrast(95%);
@@ -1018,7 +1019,7 @@
 
     .navbar nav ul li {
         width: 100%;
-        border-radius: 35px 0 0 35px;
+        border-radius: 45px 0 0 45px;
     }
 
     .navbar ul li img {
@@ -1036,15 +1037,18 @@
 
     .navbar nav ul li:nth-child(1):hover {
         filter: none;
-        background-color: #55cbcd;
+        /* background-color: #55cbcd; */
+        background-color: #85e3ff;
     }
     .navbar nav ul li:nth-child(2):hover {
         filter: none;
-        background-color: #48BEFF;
+        /* background-color: #48BEFF; */
+        background-color: #6eb5ff;
     }
     .navbar nav ul li:nth-child(3):hover {
         filter: none;
-        background-color: #3DBD96;
+        /* background-color: #3DBD96; */
+        background-color: #0BD497;
     }
     .navbar nav ul li:nth-child(4):hover {
         filter: none;
@@ -1057,15 +1061,16 @@
     
     .active1 {
         filter: none;
-        background-color: #55cbcd;
+        /* background-color: #55cbcd; */
+        background-color: #85e3ff;
     }
     .active2 {
         filter: none;
-        background-color: #48BEFF;
+        background-color: #6eb5ff;
     }
     .active3 {
         filter: none;
-        background-color: #3DBD96;
+        background-color: #0BD497;
     }
     .active4 {
         filter: none;
@@ -1079,7 +1084,312 @@
 
 
     
+ .close{
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close-train,
+.close1 {
+    color: #000;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
 
+.close:hover,
+.close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close1:hover,
+.close1:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.close-train:hover,
+.close-train:focus {
+    color: #EEE;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-modal,
+.create-modal,
+.submit-modal,
+.generate-modal,
+.basic-modal,
+.life-modal,
+.sol1-modal,
+.sol2-modal,
+.sol3-modal,
+.cell-training-modal,
+.baptism-modal,
+.weddings-modal,
+.cd-modal,
+.advance-modal,
+.specialized-modal,
+.add-modal,
+.cell-modal,
+.ministry-modal{
+   display: none;
+   position: fixed;
+   z-index: 6;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.4);
+}
+
+.profile-modal-content,
+.create-modal-content,
+.submit-modal-content,
+.generate-modal-content,
+.basic-modal-content,
+.life-modal-content,
+.sol1-modal-content,
+.sol2-modal-content,
+.sol3-modal-content,
+.cell-training-content,
+.baptism-modal-content,
+.weddings-modal-content,
+.cd-modal-content,
+.advance-modal-content,
+.specialized-modal-content,
+.add-modal-content,
+.cell-modal-content,
+.ministry-modal-content {
+    background-color: #fefefe;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.profile-modal-content > .bg-img,
+.create-modal-content > .bg-img,
+.submit-modal-content > .bg-img,
+.generate-modal-content > .bg-img,
+.add-modal-content > .bg-img,
+.cell-modal-content > .bg-img,
+.ministry-modal-content > .bg-img{
+   width: 100%;
+   height: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.profile-modal-content form,
+.create-modal-content form,
+.submit-modal-content form,
+.generate-modal-content form,
+.add-modal-content form,
+.cell-modal-content form,
+.ministry-modal-content form {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-modal-content h1,
+.create-modal-content h1,
+.submit-modal-content h1,
+.generate-modal-content h1,
+.add-modal-content h1,
+.cell-modal-content h1,
+.ministry-modal-content h1 {
+    font-family: metropolis-md;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.create-modal-content form input,
+.submit-modal-content form input,
+.generate-modal-content form input,
+.add-modal-content form input,
+.cell-modal-content form input,
+.ministry-modal-content form input {
+    height: 30px;
+}
+
+.profile-modal-content form > input[type="submit"],
+.create-modal-content form > input[type="submit"],
+.submit-modal-content form > input[type="submit"],
+.generate-modal-content form > input[type="submit"],
+.add-modal-content form > input[type="submit"],
+.cell-modal-content form > input[type="submit"],
+.ministry-modal-content form > input[type="submit"],
+.create-modal-content form select,
+.submit-modal-content form select,
+.generate-modal-content form select,
+.add-modal-content form select,
+.cell-modal-content form select,
+.ministry-modal-content form select {
+    border: 0;
+    font-family: metropolis;
+    width: 100%;
+    height: 30px;
+    margin: 30px 0;
+    font-size: 13px;
+    border-bottom: 1px solid;
+}
+
+.create-modal-content form input[type="email"] {
+    font-size: 13px;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid #48BEFF;
+}
+
+.profile-modal-content form label,
+.create-modal-content form label,
+.submit-modal-content form label,
+.generate-modal-content form label,
+.add-modal-content form label,
+.cell-modal-content form label,
+.ministry-modal-content form label {
+    font-family: metropolis;
+    font-size: 13px;
+}
+
+.profile-modal .filter-gender,
+.generate-modal .filter-gender,
+.add-modal .filter-gender,
+.ministry-modal .filter-gender {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: metropolis;
+}
+
+
+@media (min-width: 769px) {
+    .profile-modal-content,
+    .create-modal-content,
+    .submit-modal-content,
+    .generate-modal-content,
+    .add-modal-content,
+    .cell-modal-content,
+    .ministry-modal-content{
+        background-color: #fefefe;
+        margin: 0 auto;
+        border: 1px solid #888;
+        width: 613px;
+        border-radius: 20px;
+    }
+
+    .basic-modal-content,
+    .life-modal-content,
+    .sol1-modal-content,
+    .sol2-modal-content,
+    .sol3-modal-content,
+    .cell-training-content,
+    .baptism-modal-content,
+    .weddings-modal-content,
+    .cd-modal-content,
+    .advance-modal-content,
+    .specialized-modal-content{
+        background-color: #fefefe;
+        margin: 0 auto;
+        border: 1px solid #888;
+        width: 769px;
+        border-radius: 20px;
+    }
+
+    .profile-modal,
+    .create-modal,
+    .submit-modal,
+    .generate-modal,
+    .add-modal,
+    .cell-modal,
+    .ministry-modal  {
+        padding-top: 50px;
+    }
+
+    .basic-modal,
+    .life-modal,
+    .sol1-modal,
+    .sol2-modal,
+    .sol3-modal,
+    .cell-training-modal,
+    .baptism-modal,
+    .weddings-modal,
+    .cd-modal,
+    .advance-modal,
+    .specialized-modal {
+        padding-top: 100px;
+    }
+
+    .profile-modal-content {
+        height: 750px;
+    }
+
+    .create-modal-content {
+        height: 784px;
+    }
+
+    .submit-modal-content {
+        height: 850px;
+    }
+    
+    .generate-modal-content {
+        height: 720px;
+    }
+
+    .cell-modal-content {
+        height: 890;
+    }
+
+    .add-modal-content {
+        height: 965px;
+    }
+    
+    .ministry-modal-content {
+        height: 890px;
+    }
+
+    .basic-modal-content,
+    .life-modal-content,
+    .sol1-modal-content,
+    .sol2-modal-content,
+    .sol3-modal-content,
+    .cell-training-content,
+    .baptism-modal-content,
+    .weddings-modal-content,
+    .cd-modal-content,
+    .advance-modal-content,
+    .specialized-modal-content {
+        height: 500px;
+    }
+
+    .profile-modal-content > .bg-img,
+    .create-modal-content > .bg-img,
+    .submit-modal-content > .bg-img,
+    .generate-modal-content > .bg-img,
+    .cell-modal-content > .bg-img,
+    .add-modal-content > .bg-img,
+    .ministry-modal-content > .bg-img {
+        border-radius: 20px 20px 0 0;
+    }
+    
+}
 
 
 
