@@ -29,7 +29,6 @@
                 <input type="text" placeholder="Please enter your email">
                 <button class="forgotbot" type="submit">Send</button>
                 <label>We will be sending a reset link to your email address.</label>
-
             </form>
         </div>
     </main>
